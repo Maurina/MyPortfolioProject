@@ -121,6 +121,18 @@ nav ul li a:hover{
   border-top: solid 2px  #81d8d0;
 }
 
+
+.star-tiles{
+  display:flex;
+  justify-content: space-evenly;
+  border: solid 3px #81d8d0;
+}
+
+.star-tiles .card {
+  border: solid 3px #81d8d0;
+  width: 18rem;
+}
+
 #contact{
   background-color: #008081;
   height: 200px;
