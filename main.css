@@ -125,12 +125,29 @@ nav ul li a:hover{
 .star-tiles{
   display:flex;
   justify-content: space-evenly;
-  border: solid 3px #81d8d0;
+  padding-bottom: 2rem;
 }
 
 .star-tiles .card {
   border: solid 3px #81d8d0;
-  width: 18rem;
+  width: 30rem;
+  background: black;
+  color: white;
+}
+
+.star-tiles .card img{
+  height: 12rem;
+  border-bottom: solid 3px #81d8d0;
+}
+
+.card-body{
+  display:flex;
+ justify-content: space-evenly;
+}
+
+.card-body li{
+  list-style-type: none;
+  padding: .5rem;
 }
 
 #contact{
