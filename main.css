@@ -177,7 +177,7 @@ nav ul li a:hover{
 
 .star-tiles{
   display:flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   padding-bottom: 2rem;
 }
 
@@ -195,13 +195,20 @@ nav ul li a:hover{
 
 .card-body{
   display:flex;
- justify-content: space-evenly;
+ justify-content: flex-start;
+}
+
+.card-body ul{
+  padding-left: 0;
 }
 
 .card-body li{
   list-style-type: none;
-  padding: .5rem;
+  padding-bottom: .5rem;
+ 
 }
+
+
 
 #contact{
   background-color: #008081;

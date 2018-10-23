@@ -15,11 +15,14 @@ films.forEach((film) => {
 
 let filmShip = document.querySelector("#film-people")
 
-starships.forEach((starship) => {
+let limitedStarship = starships.slice(0, 7)
+
+limitedStarship.forEach((starship) => {
     let listItem = document.createElement('li')
     listItem.textContent = starship.name
     filmShip.appendChild(listItem)
     console.log(starship.name)
+
 })
 
 
