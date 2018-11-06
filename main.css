@@ -1,6 +1,6 @@
 
 /*  Reset  */
-// reset
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -69,12 +69,20 @@ body{
   .project{
     margin: 40px 0;
   }
+
+  .star-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+
 }
 
 #navbar {
   position:fixed;
   top: 0;
-    width: 100%;
+  width: 100%;
 }
 
 nav ul {
@@ -82,7 +90,7 @@ nav ul {
   background-color: #333;
   display: flex;
   justify-content: flex-end;
-  padding: 15px;
+  
  
 }
 
@@ -90,7 +98,7 @@ nav ul li a{
   color: white;
   text-decoration: none;
   margin: 35px;
-  padding:15px;
+
  
 }
 
@@ -246,3 +254,50 @@ h3 {
   height: 200px;
 }
 
+
+/* -------------SENATORS PAGE ----------------*/
+nav{
+    position:fixed;
+    top: 0;
+      width: 100%;
+  }
+nav li{
+    list-style: none;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+  
+  
+nav li a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+ padding-right: 4%;
+   
+  }
+  
+nav li a:hover{
+    background-color:#111;
+  
+  }
+  
+  h1{
+    padding-top:8%;
+    text-align: center;
+  }
+  
+  .container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  figcaption{
+    padding: 2%;
+    text-align: center;
+    font-size: 1.5rem;
+  }

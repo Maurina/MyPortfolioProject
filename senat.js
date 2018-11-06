@@ -30,11 +30,15 @@ console.log(` ${nameOfSenators}`)
 const senWithPics = senators.map(senator => {
     senator.imgURL = `https://www.govtrack.us/data/photos/${senator.govtrack_id}-200px.jpeg`
     if(senator.govtrack_id ==='412743'){
-        senator.imgURL = `https://localhost:5500/images/cindy.jpg`}
+        senator.imgURL = `https://localhost:5500/assets/cindy.jpg`}
     return senator
 })
 
 console.log(senWithPics)
+let loyalDiv = document.querySelector('.container')
+let loyalRep = document.createElement('h1')
+loyalRep.textContent = `The most loyal republican is ${loyalRepublican.first_name} ${loyalRepublican.last_name} from ${loyalRepublican.state} who votes with republicans ${loyalRepublican.votes_with_party_pct}% of the time.`
+
 
 let pictureDiv = document.querySelector('.container')
 senWithPics.forEach(senator => {
