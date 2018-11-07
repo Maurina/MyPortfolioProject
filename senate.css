@@ -110,9 +110,26 @@ nav li a:hover{
     font-size: 3rem;
     padding-bottom: 4%;
   }
+
+  .container1{
+    text-align: center;
+    background: #81d8d0;
+    padding: 4%;
+
+  }
+
+  h2{
+      font-size: 2rem;
+    
+  }
+
+  p{
+      font-size: 1.5rem;
+      padding: 2%;
+  }
   
   .container{
-  
+  padding-top: 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

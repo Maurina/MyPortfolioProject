@@ -35,9 +35,7 @@ const senWithPics = senators.map(senator => {
 })
 
 console.log(senWithPics)
-let loyalDiv = document.querySelector('.container')
-let loyalRep = document.createElement('h1')
-loyalRep.textContent = `The most loyal republican is ${loyalRepublican.first_name} ${loyalRepublican.last_name} from ${loyalRepublican.state} who votes with republicans ${loyalRepublican.votes_with_party_pct}% of the time.`
+
 
 
 let pictureDiv = document.querySelector('.container')
@@ -52,3 +50,17 @@ senWithPics.forEach(senator => {
     pictureDiv.appendChild(senatorFig)
 })
  
+let loyalDiv = document.querySelector('#loyalRep')
+let paragraph = document.createElement('p')
+paragraph.textContent = `${loyalRepublican.first_name}  ${loyalRepublican.last_name}`
+loyalDiv.appendChild(paragraph)
+
+let voteRepub = document.querySelector('#votesRep')
+let paragra = document.createElement('p')
+paragra.textContent = `${loyalRepublican.votes_with_party_pct}`
+voteRepub.appendChild(paragra)
+
+let loyalDemo = document.querySelector('#loyalDem')
+let para = document.createElement('p')
+para.textContent = `${loyalDemocate.first_name}  ${loyalDemocate.last_name}`
+loyalDemo.appendChild(para)
