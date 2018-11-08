@@ -11,9 +11,11 @@ let card = document.createElement('div')
  let fig = document.createElement('figure')
  let cap = document.createElement('figcaption')
  let img = document.createElement('img')
+ 
  let backDiv = doucment.createElement('div')
  bacdDiv.textContent = poke.cname
- img.src = `img/${poke.id}${poke.ename}.png`
+ img.src = `images/${poke.id}${poke.ename}.png`
+ img.alt = poke.ename
  cap.textContent = poke.ename
  fig.appendChild(cap)
  fig.appendChild(img)

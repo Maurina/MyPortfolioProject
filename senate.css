@@ -50,7 +50,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /* -------------SENATORS PAGE ----------------*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
 @media only screen and (max-width: 500px){
     nav li{
       text-align:center;
@@ -81,13 +88,14 @@ nav{
     position:fixed;
     top: 0;
       width: 100%;
+      background-color: #333;
+      display: flex;
+      justify-content: flex-end;
+   
   }
 nav li{
     list-style: none;
-    background-color: #333;
-    display: flex;
-    justify-content: flex-end;
- 
+    padding: 2%;
 }
   
   
