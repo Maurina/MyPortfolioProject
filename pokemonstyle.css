@@ -113,15 +113,19 @@ h1{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+ 
 }
+
+
 
 figure{
     border: thin #000 soild;
     display: flex;
     flex-flow: column;
-    margin: 0;
+    margin: 15px;
     padding: 5px;
     box-shadow: 5px 5px 5px #666;
+  
 }
 
 img{
@@ -131,7 +135,7 @@ img{
 figcaption{
     background-color: #000;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 3px;
     text-align: center;
 }
@@ -159,10 +163,11 @@ figcaption{
     font-weight: bold;
     font-size: 40px;
     backface-visibility: hidden;
-  }
+     }
   
   .card__face--front {
-    background: red;
+    font-size: 5rem;
+    opacity: 0;
   }
   
   .card__face--back {
