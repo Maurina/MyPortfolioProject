@@ -16,7 +16,11 @@ const card = document.createElement('figure')
  fig.appendChild(img)
  card.appendChild(fig)
  pokeContainer.appendChild(card)
- 
+
+ let card = document.querySelector('.card');
+card__face.addEventListener( 'click', function(){
+    card.classList.toggle('is-flipped');
+})
   })    
 
 const pokeBackContainer = document.querySelector("#backContainer")
@@ -32,9 +36,21 @@ fig.appendChild(cap)
 fig.appendChild(img)
 cardBack.appendChild(fig)
 pokeBackContainer.appendChild(cardBack)
-})  
 
 let card = document.querySelector('.card');
 card__face.addEventListener( 'click', function(){
     card.classList.toggle('is-flipped');
 })
+})  
+
+addCard =>{
+    const makeCard = document.createElement('figure')
+    let fig = document.createElement('figure')
+    let cap = document.createElement('figcaption')
+    img.scr = document.getElementById("pokeImage")
+    cap.textContent = document.getElementById("pokeName")
+    fig.appendChild(cap)
+    fig.appendChild(img)
+    addCard.appendChild(fig)
+    pokeContainer.push(addCard)
+}
