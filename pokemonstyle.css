@@ -108,6 +108,41 @@ h1{
   font-size: 3rem;
   padding-bottom: 4%;
 }
+.addCard{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+  justify-content: center;
+  width: 420px;
+    height: 460px;
+border: 1px solid #666;
+margin: 15px;
+}
+
+h2{
+  align-self: flex-start;
+  font-size: 2rem;
+  padding-bottom: 25%;
+  padding-left: 6%;
+}
+
+form{
+  padding-left: 4%;
+  align-self: flex-start;
+  font-size: 1.5rem;
+  padding-bottom: 6%;
+  display: flex;
+}
+
+input{
+  border-radius: 10rem;
+  height: 2rem;
+  border: 1px solid #666;
+  width: 18rem;
+  align-self: flex-end;
+}
 
 #container{
     display:flex;
