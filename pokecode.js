@@ -4,44 +4,51 @@ console.log(pokemon)
 
 //card front
 const pokeContainer = document.querySelector('#container')
-pokemon.forEach(poke => {
-const frontCard = document.createElement('figure')
- console.log(`${poke.id}${poke.ename}.png`)
 
+const Card = document.createElement('div')
+Card.className ="card"
+
+pokemon.forEach(poke => {
+let frontFigure = document.createElement('div')
+ console.log(`${poke.id}${poke.ename}.png`)
+ let fig = document.createElement('figure')
  let cap = document.createElement('figcaption')
  let img = document.createElement('img')
-
+frontFigure.className = "card__face card__face--front"
  img.src = `images/${poke.id}${poke.ename}.png`
  cap.textContent = poke.ename
- frontCard.appendChild(cap)
- frontCard.appendChild(img)
- pokeContainer.appendChild(frontCard)
+ fig.appendChild(cap)
+ fig.appendChild(img)
+ frontFigure.appendChild(fig)
+ Card.appendChild(frontFigure)
+ pokeContainer.appendChild(Card)
 
- //event listener
- //let card = document.querySelector('.card');
-//card__face.addEventListener( 'click', function(){
-  //  card.classList.toggle('is-flipped');
-//})
+ let backFigure = document.createElement('div')
+ backFigure.className ="card__face card__face--back"
+ let figu = document.createElement('figure')
+ let capt = document.createElement('figcaption')
+ //let imag = document.createElement('img')
+
+ //imag.src = "./images/PokemonLogo"
+ capt.textContent = poke.ename
+ figu.appendChild(capt)
+ //figu.appendChild(imag)
+ 
+ backFigure.appendChild(figu)
+ Card.appendChild(backFigure)
+ pokeContainer.appendChild(Card)
+ 
+
+ let card = document.querySelector('.card');
+ card.addEventListener( 'click', function(){
+    card.classList.toggle('is-flipped');
+ })
   })    
 
   //card back
-const pokeBackContainer = document.querySelector("#backContainer")
-pokemon.forEach(poke => {
-const cardBack = document.createElement('figure')
-let capt = document.createElement('figcaption')
-let imag = document.createElement('img')
 
-imag.src = "./images/PokemonLogo"
-capt.textContent = poke.ename
-cardBack.appendChild(capt)
-cardBack.appendChild(imag)
-pokeBackContainer.appendChild(cardBack)
 
-//let card = document.querySelector('.card');
-//card__face.addEventListener( 'click', function(){
-  //  card.classList.toggle('is-flipped');
-//})
-})  
+
 
 //user added card from html
 addCard =>{
@@ -69,8 +76,5 @@ makeCardBack.appendChild(captions)
 makeCardBack.appendChild(images)
 pokeBackContainer.appendChild(makeCardBack)
 
-///let card = document.querySelector('.card');
-///card__face.addEventListener( 'click', function(){
-   // card.classList.toggle('is-flipped');
-//})
+
 }
