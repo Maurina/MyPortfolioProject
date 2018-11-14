@@ -6,7 +6,9 @@ console.log(pokemon)
 //card container
 const pokeContainer = document.querySelector('#container')
 
-pokemon.forEach(poke => {
+
+
+const cardCreator = (poke) =>{
  let card = document.createElement('div')
  card.className = "card"
  card.addEventListener( 'click', function() {
@@ -34,12 +36,50 @@ pokemon.forEach(poke => {
 
  imag.src = "images/PokemonLogo.png"
  capt.textContent = poke.ename
- cardBack.appendChild(capt)
- cardBack.appendChild(imag)
+
+let attack = document.createElement('p')
+let defense = document.createElement('p')
+let speed = document.createElement('p')
+let hp = document.createElement('p')
+
+attack.textContent = `Attack: ${poke.base.Attack}`
+defense.textContent = `Defense: ${poke.base.Defense}`
+speed.textContent = `Speed: ${poke.base.Speed}`
+hp.textContent = `Hit Points: ${poke.base.HP}`
+
+
+
+cardBack.appendChild(imag)
+cardBack.appendChild(capt)
+ cardBack.appendChild(attack)
+cardBack.appendChild(defense)
+cardBack.appendChild(speed)
+cardBack.appendChild(hp)
+
+
 
  card.appendChild(frontCard)
  card.appendChild(cardBack)
  pokeContainer.appendChild(card)
+}
+
+pokemon.forEach(element => cardCreator(element))
+
+
+let newCard = {
+   "ename": "Raichu", 
+    "id": "026", 
+    "base": {
+    "Attack": 90, 
+    "Defense": 55, 
+    "HP": 60,  
+    "Speed": 110
+}
+}
+
+let create = document.querySelector('#create')
+create.addEventListener('click', () => {
+return cardCreator(newCard)
 })
 
 let createCard = document.createElement('div')
@@ -47,10 +87,10 @@ createCard.className = "card"
 createCard.addEventListener('click', () => {
   
   console.log("thanks for clicking!")
-  
+})
 
- 
-    pokeAdd.forEach(pokeNew => {
+  
+   /* pokeAdd.forEach(pokeNew => {
         let createCard = document.querySelector('#create')
 
         let newCardFront = document.createElement('figure')
@@ -74,6 +114,6 @@ createCard.addEventListener('click', () => {
         createCard.appendChild(newCardBack)
         pokeContainer.appendChild(createCard)
 
- })
- return createCard
-})
+ })*/
+  
+ 
