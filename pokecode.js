@@ -50,7 +50,7 @@ hp.textContent = `Hit Points: ${poke.base.HP}`
 
 
 cardBack.appendChild(imag)
-cardBack.appendChild(capt)
+ cardBack.appendChild(capt)
  cardBack.appendChild(attack)
 cardBack.appendChild(defense)
 cardBack.appendChild(speed)
@@ -89,9 +89,40 @@ createCard.addEventListener('click', () => {
   console.log("thanks for clicking!")
 })
 
-  
-   /* pokeAdd.forEach(pokeNew => {
-        let createCard = document.querySelector('#create')
+
+ /* const createCardLoop = () => {
+    let create = document.querySelector('#create')
+    create.addEventListener('click', () => {
+        
+        if ('click'){
+            let i = 26
+            for (pokeNew => {
+                i++
+                let newCardFront = document.createElement('figure')
+                newCardFront.className = "card__face card__face--back"
+                let capti = document.createElement('figcaption')
+                let image = document.createElement('img')
+                image.src =`images/${pokeNew.id}${pokeNew.ename}.png`
+                capti.textContent = pokeNew.ename
+                newCardFront.appendChild(capti)
+                newCardFront.appendChild(image)
+                
+                let newCardBack = document.createElement('figure')
+                newCardBack.className = "card__face card__face--back"
+                let caption = document.createElement('figcaption')
+                let images = document.createElement('img')
+                images.src = "images/PokemonLogo.png"
+                caption.textContent = pokeNew.ename
+                newCardBack.appendChild(caption)
+                newCardBack.appendChild(images)
+                newCard.appendChild(newCardFront)
+                newCard.appendChild(newCardBack)
+        
+         })
+    }
+    })
+  }
+    pokeAdd.forEach(pokeNew => {
 
         let newCardFront = document.createElement('figure')
         newCardFront.className = "card__face card__face--back"
@@ -110,9 +141,8 @@ createCard.addEventListener('click', () => {
         caption.textContent = pokeNew.ename
         newCardBack.appendChild(caption)
         newCardBack.appendChild(images)
-        createCard.appendChild(newCardFront)
-        createCard.appendChild(newCardBack)
-        pokeContainer.appendChild(createCard)
+        newCard.appendChild(newCardFront)
+        newCard.appendChild(newCardBack)
 
  })*/
   

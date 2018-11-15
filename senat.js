@@ -12,7 +12,7 @@ let males = senators.filter (senator => senator.gender === "M")
 
 const loyalRepublican = republican.reduce((acc, senator) => senator.votes_with_party_pct > 0 ? senator : acc, 0)
 
-const loyalDemocate = democrats.reduce((acc, senator) => senator.votes_with_party_pct > 0 ? senator: acc, 0)
+const loyalDemocat = democrats.reduce((acc, senator) => senator.votes_with_party_pct > 0 ? senator: acc, 0)
 
 const nameOfSenators = senators.map (senator => senator.first_name +" "+ senator.last_name)
 
@@ -24,13 +24,14 @@ console.log(`There are ${democrats.length} democrates in the senate.`)
 console.log(`There are ${females.length} female senators`)
 console.log(`There are ${males.length} male senators`)
 console.log(`The most loyal republican is ${loyalRepublican.first_name} ${loyalRepublican.last_name} from ${loyalRepublican.state} who votes with republicans ${loyalRepublican.votes_with_party_pct}% of the time.`)
+console.log(`The most loyal republican is ${loyalDemocat.first_name} ${loyalDemocat.last_name} from ${loyalDemocat.state} who votes with republicans ${loyalDemocat.votes_with_party_pct}% of the time.`)
 console.log(`These are the Senators`)
 console.log(` ${nameOfSenators}`)
 
 const senWithPics = senators.map(senator => {
     senator.imgURL = `https://www.govtrack.us/data/photos/${senator.govtrack_id}-200px.jpeg`
     if(senator.govtrack_id ==='412743'){
-        senator.imgURL = `https://localhost:5500/assets/cindy.jpg`}
+        senator.imgURL = `images/cindy.jpg`}
     return senator
 })
 
@@ -52,15 +53,24 @@ senWithPics.forEach(senator => {
  
 let loyalDiv = document.querySelector('#loyalRep')
 let paragraph = document.createElement('p')
-paragraph.textContent = `${loyalRepublican.first_name}  ${loyalRepublican.last_name}`
+let loyalImg = document.createElement('img')
+
+paragraph.textContent = `${loyalRepublican.first_name}  ${loyalRepublican.last_name} from ${loyalRepublican.state}`
 loyalDiv.appendChild(paragraph)
 
-let voteRepub = document.querySelector('#votesRep')
+let voteRepub = document.querySelector('#voteRep')
 let paragra = document.createElement('p')
-paragra.textContent = `${loyalRepublican.votes_with_party_pct}`
-voteRepub.appendChild(paragra)
+paragra.textContent = `${loyalRepublican.votes_with_party_pct}% of the time.`
+voteRepub.appendChild(paragra) 
+
+
 
 let loyalDemo = document.querySelector('#loyalDem')
 let para = document.createElement('p')
-para.textContent = `${loyalDemocate.first_name}  ${loyalDemocate.last_name}`
+para.textContent = `${loyalDemocat.first_name}  ${loyalDemocat.last_name} from ${loyalDemocat.state}`
 loyalDemo.appendChild(para)
+
+let voteDemo = document.querySelector('#voteDem')
+let par = document.createElement('p')
+par.textContent = `${loyalDemocat.votes_with_party_pct}% of the time.`
+voteDemo.appendChild(par)
