@@ -89,6 +89,34 @@ createCard.addEventListener('click', () => {
   console.log("thanks for clicking!")
 })
 
+// Constructor Function
+
+function PokemonNew(ename, id, base) {
+    this.ename = ename
+    this.id = id
+    this.base = base
+  
+}
+
+let newPokemon = new PokemonNew("Mewtwo", 150, {"Attack": 49, "Defense": 49, "HP": 45})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /* const createCardLoop = () => {
     let create = document.querySelector('#create')
