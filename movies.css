@@ -102,20 +102,53 @@ nav ul li a:hover{
 .twoBoxes{
     display: flex;
     justify-content: center;
-  
+    background-color: red;
+
 }
 
 .poster{
-  background-color: red;
-  width: 60%;
-}
 
-.info{
-  background-color: purple;
   width: 40%;
 }
 
+.info{
 
+  width: 40%;
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+
+h2{
+  font-size: 3rem;
+  color: #fff;
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+blockquote{
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+ padding-top: 5rem;
+}
+
+
+figcaption{
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 2%;
+  background-color: green;
+  margin-bottom: 2rem;
+}
 img{
     width: 100%;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
 }
