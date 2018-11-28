@@ -1054,38 +1054,7 @@ export const movieInfo =[
     "vote_average": 7.6,
     "vote_count": 227
   },
-  {
-    "adult": false,
-    "backdrop_path": "/h6NQoXBxD0uaIrpuk9FFV89vITT.jpg",
-    "belongs_to_collection": {
-      "id": 256377,
-      "name": "The Muppet Collection",
-      "poster_path": "/3O2tEgn8Z5atIVKif6W47qayIqb.jpg",
-      "backdrop_path": "/1AWd3MM90G47mxtD112gRDxSXY9.jpg"
-    },
-    "budget": 12000000,
-    "genres": [
-      {
-        "id": 10402,
-        "name": "Music"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      }
-    ],
+{
     "homepage": null,
     "id": 10437,
     "imdb_id": "tt0104940",
@@ -1617,156 +1586,8 @@ export const movieInfo =[
     "vote_average": 7.3,
     "vote_count": 124
   },
-  {
-    "adult": false,
-    "backdrop_path": "/rcQZmnhcb6P4mkgJAHnCYp3c1gp.jpg",
-    "belongs_to_collection": {
-      "id": 53159,
-      "name": "The Santa Clause Collection",
-      "poster_path": "/1h8iA6i2DpPhsHC65nUB2voVnm5.jpg",
-      "backdrop_path": "/jQiwVHJN1rsS4DqhF7hlYZTYCH.jpg"
-    },
-    "budget": 10000000,
-    "genres": [
-      {
-        "id": 14,
-        "name": "Fantasy"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      }
-    ],
-    "homepage": null,
-    "id": 11395,
-    "imdb_id": "tt0111070",
-    "original_language": "en",
-    "original_title": "The Santa Clause",
-    "overview": "Scott Calvin is an ordinary man, who accidentally causes Santa Claus to fall from his roof on Christmas Eve and is knocked unconscious. When he and his young son finish Santa's trip and deliveries, they go to the North Pole, where Scott learns he must become the new Santa and convince those he loves that he is indeed, Father Christmas.",
-    "popularity": 9.63,
-    "poster_path": "/hrZjAYAF1o37k4Qb442c4yxwVLw.jpg",
-    "production_companies": [
-      {
-        "id": 2,
-        "logo_path": "/4MbjW4f9bu6LvlDmyIvfyuT3boj.png",
-        "name": "Walt Disney Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 915,
-        "logo_path": "/xXojkyRWFZ0JTJyjiu13ThKeFbz.png",
-        "name": "Hollywood Pictures",
-        "origin_country": ""
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "1994-11-10",
-    "revenue": 0,
-    "runtime": 97,
-    "spoken_languages": [
-      {
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "What if your dad was Santa Claus?",
-    "title": "The Santa Clause",
-    "video": false,
-    "vote_average": 6.3,
-    "vote_count": 802
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/9tB94sgqEYlGbsJzYaGdqeYF6iF.jpg",
-    "belongs_to_collection": {
-      "id": 423173,
-      "name": "Bad Santa Collection",
-      "poster_path": "/2OkB4GagVy1n7M8Q94FRzsOErPE.jpg",
-      "backdrop_path": "/plVMZOMBsHUNNkCQEoY1rW0B5Qb.jpg"
-    },
-    "budget": 26000000,
-    "genres": [
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 80,
-        "name": "Crime"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 9648,
-        "name": "Mystery"
-      }
-    ],
-    "homepage": "http://www.badsanta2.com/",
-    "id": 338964,
-    "imdb_id": "tt1798603",
-    "original_language": "en",
-    "original_title": "Bad Santa 2",
-    "overview": "Fueled by cheap whiskey, greed and hatred, Willie Soke teams up with his angry little sidekick, Marcus, to knock off a Chicago charity on Christmas Eve. Along for the ride is chubby and cheery Thurman Merman, a 250-pound ray of sunshine who brings out Willie's sliver of humanity. Issues arise when the pair are joined by Willie's horror story of a mother, who raises the bar for the gang's ambitions, while somehow lowering the standards of criminal behavior.",
-    "popularity": 7.778,
-    "poster_path": "/y3kVZVknjDeLZSanLewaXsuwP12.jpg",
-    "production_companies": [
-      {
-        "id": 290,
-        "logo_path": "/Q8mw2AOQQc8Qg0uNwLWq86DVZv.png",
-        "name": "Ingenious Media",
-        "origin_country": "GB"
-      },
-      {
-        "id": 49389,
-        "logo_path": "/3rOhrdjnUHsf0GPa66b9KyR2MUx.png",
-        "name": "Broad Green Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 14,
-        "logo_path": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
-        "name": "Miramax",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2016-11-23",
-    "revenue": 23229371,
-    "runtime": 92,
-    "spoken_languages": [
-      {
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Giving the holidays another shot.",
-    "title": "Bad Santa 2",
-    "video": false,
-    "vote_average": 5.1,
-    "vote_count": 365
-  },
+ 
+ 
   {
     "adult": false,
     "backdrop_path": "/daZN4XfgtcC2tJA36HIfc9MQRAH.jpg",
@@ -2339,82 +2160,7 @@ export const movieInfo =[
     "vote_count": 408
   },
 
-{
-  "adult": false,
-  "backdrop_path": "/xgVsyWiuCPITd33nznleau6pXwM.jpg",
-  "belongs_to_collection": {
-    "id": 469648,
-    "name": "Santa Paws",
-    "poster_path": "/eFlXvlTM34xE2TxrZAPweE80NCv.jpg",
-    "backdrop_path": "/i8jLwVVuYRgr8I9uOYnCPvzPUA4.jpg"
-  },
-  "budget": 0,
-  "genres": [
-    {
-      "id": 10751,
-      "name": "Family"
-    },
-    {
-      "id": 12,
-      "name": "Adventure"
-    }
-  ],
-  "homepage": "http://disneydvd.disney.go.com/the-search-for-santa-paws.html",
-  "id": 48844,
-  "imdb_id": "tt1544572",
-  "original_language": "en",
-  "original_title": "The Search for Santa Paws",
-  "overview": "In the tradition of disney's classic holiday tales comes a heartwarming movie about the power of giving and the true meaning of christmas. Discover how the legendary friendship of Santa Claus and Santa Paws began in the inspiring original film, The Search For Santa Paws. When Santa and his new best friend, Paws, discover that the boys and girls of the world have lost the spirit of the season, they take a trip to New York City. But after Santa loses his memory, it's up to Paws, a faithful orphan named Quinn, her new friend Will and a wonderful group of magical talking dogs to save St. Nick and show the world what Christmas is really all about.",
-  "popularity": 4.39,
-  "poster_path": "/9Km3tpCVRPzRYfEiCaJB6bKjPEA.jpg",
-  "production_companies": [
-    {
-      "id": 2,
-      "logo_path": "/4MbjW4f9bu6LvlDmyIvfyuT3boj.png",
-      "name": "Walt Disney Pictures",
-      "origin_country": "US"
-    },
-    {
-      "id": 19649,
-      "logo_path": null,
-      "name": "Key Pix Productions",
-      "origin_country": ""
-    },
-    {
-      "id": 37892,
-      "logo_path": null,
-      "name": "Keystone Entertainment",
-      "origin_country": ""
-    },
-    {
-      "id": 71795,
-      "logo_path": null,
-      "name": "Santa Paws Productions",
-      "origin_country": ""
-    }
-  ],
-  "production_countries": [
-    {
-      "iso_3166_1": "CA",
-      "name": "Canada"
-    }
-  ],
-  "release_date": "2010-10-12",
-  "revenue": 0,
-  "runtime": 89,
-  "spoken_languages": [
-    {
-      "iso_639_1": "en",
-      "name": "English"
-    }
-  ],
-  "status": "Released",
-  "tagline": "The Search is On!",
-  "title": "The Search for Santa Paws",
-  "video": false,
-  "vote_average": 5.5,
-  "vote_count": 66
-},
+
 {
     "adult": false,
     "backdrop_path": "/hoAm2GyWimeSbKwqb22dPx6S4Zf.jpg",
@@ -2462,68 +2208,7 @@ export const movieInfo =[
     "vote_average": 8,
     "vote_count": 1
   },
-  {
-    "adult": false,
-    "backdrop_path": "/uqdp0h8Se2gPKLB2axVs7KI1ppL.jpg",
-    "belongs_to_collection": {
-      "id": 469648,
-      "name": "Santa Paws",
-      "poster_path": "/eFlXvlTM34xE2TxrZAPweE80NCv.jpg",
-      "backdrop_path": "/i8jLwVVuYRgr8I9uOYnCPvzPUA4.jpg"
-    },
-    "budget": 0,
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Family"
-      }
-    ],
-    "homepage": null,
-    "id": 142308,
-    "imdb_id": "tt2414212",
-    "original_language": "en",
-    "original_title": "Santa Paws 2: The Santa Pups",
-    "overview": "An all-new Disney holiday classic is born - Santa Paws 2: The Santa Pups. Starring a brand-new litter of the cutest talking pups ever - Hope, Jingle, Charity, and Noble - it's perfect for the whole family. When Mrs. Claus travels to Pineville, the playful Santa Pups stow away on her sled. Taking mischief to a whole new level, they begin granting joyful wishes to Pineville's boys and girls, but something goes terribly wrong - the Christmas spirit begins to disappear. Now the Santa Pups and Mrs. Claus must race to save Christmas around the world. From the creators of Disney Buddies, this magical, heartwarming tale is brimming with hope, cheer, and Christmas spirit. Written by Paws",
-    "popularity": 2.634,
-    "poster_path": "/g5uCvSkbug9PQTtbkiCKUMzKq3Z.jpg",
-    "production_companies": [
-      {
-        "id": 2,
-        "logo_path": "/4MbjW4f9bu6LvlDmyIvfyuT3boj.png",
-        "name": "Walt Disney Pictures",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2012-11-20",
-    "revenue": 0,
-    "runtime": 88,
-    "spoken_languages": [
-      {
-        "iso_639_1": "en",
-        "name": "English"
-      },
-      {
-        "iso_639_1": "fr",
-        "name": "Français"
-      },
-      {
-        "iso_639_1": "sv",
-        "name": "svenska"
-      }
-    ],
-    "status": "Released",
-    "tagline": "One Magical Wish Can Change Everything !",
-    "title": "Santa Paws 2: The Santa Pups",
-    "video": false,
-    "vote_average": 5.6,
-    "vote_count": 32
-  },
+ 
   {
     "adult": false,
     "backdrop_path": "/2F8cwDiU43qYYmRVCyv2Lx5E36C.jpg",
@@ -2677,73 +2362,7 @@ export const movieInfo =[
     "vote_average": 6.1,
     "vote_count": 160
   },
-  {
-    "adult": false,
-    "backdrop_path": "/xi6Q3gyfxbdVkHIqwyR4bk7b7GM.jpg",
-    "belongs_to_collection": null,
-    "budget": 123000000,
-    "genres": [
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
-    ],
-    "homepage": "http://www.grinched.com/",
-    "id": 8871,
-    "imdb_id": "tt0170016",
-    "original_language": "en",
-    "original_title": "How the Grinch Stole Christmas",
-    "overview": "Inside a snowflake exists the magical land of Whoville. In Whoville, live the Whos, an almost mutated sort of Munchkin-like people. All the Whos love Christmas, yet just outside of their beloved Whoville lives the Grinch. The Grinch is a nasty creature that hates Christmas, and plots to steal it away from the Whos, whom he equally abhors. Yet a small child, Cindy Lou Who, decides to try befriending the Grinch.",
-    "popularity": 32.239,
-    "poster_path": "/vQfgNHbcIWS2j3AAAzLOtPUGVmB.jpg",
-    "production_companies": [
-      {
-        "id": 33,
-        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-        "name": "Universal Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 23,
-        "logo_path": "/mkxNjThahj5pvntvYKVpMbWXm3D.png",
-        "name": "Imagine Entertainment",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "DE",
-        "name": "Germany"
-      },
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2000-11-17",
-    "revenue": 345141403,
-    "runtime": 104,
-    "spoken_languages": [
-      {
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "He puts the mean in green.",
-    "title": "How the Grinch Stole Christmas",
-    "video": false,
-    "vote_average": 6.5,
-    "vote_count": 2792
-  },
+ 
   {
     "adult": false,
     "backdrop_path": "/nMomMy1sD3SN2QsKop3zBXCJfDJ.jpg",
@@ -2808,17 +2427,4 @@ export const movieInfo =[
     "vote_count": 1698
   },
   
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
