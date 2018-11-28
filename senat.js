@@ -54,12 +54,10 @@ senWithPics.forEach(senator => {
 
 let loyalDiv = document.querySelector('#loyalRep')
 let paragraph = document.createElement('p')
-let loyalImg = document.createElement('img')
 
-loyalImg.imgURL = `https://www.govtrack.us/data/photos/412428-200px.jpeg`
 paragraph.textContent = `${loyalRepublican.first_name}  ${loyalRepublican.last_name} from ${loyalRepublican.state}`
 loyalDiv.appendChild(paragraph)
-loyalDiv.appendChild(loyalImg)
+
 
 let voteRepub = document.querySelector('#voteRep')
 let paragra = document.createElement('p')
@@ -72,12 +70,12 @@ voteRepub.appendChild(paragra)
 let loyalDemo = document.querySelector('#loyalDem')
 let para = document.createElement('p')
 para.textContent = `${loyalDemocat.first_name}  ${loyalDemocat.last_name} from ${loyalDemocat.state}`
-let loyalDemoImg = document.createElement('img')
-loyalDemoImg.imgURL = `https://www.govtrack.us/data/photos/300100-200px.jpeg`
+
+
 
 loyalDemo.appendChild(para)
 
-loyalDemo.appendChild(loyalDemoImg)
+
 
 let voteDemo = document.querySelector('#voteDem')
 let par = document.createElement('p')

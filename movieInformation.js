@@ -1,4 +1,4 @@
-export const movieInfo =[
+export const movies =[
 {
     "adult": false,
     "backdrop_path": "/ppDnBvf0f7vCZHRLtDjazpYHdTF.jpg",
@@ -25,7 +25,7 @@ export const movieInfo =[
     "original_title": "White Christmas",
     "overview": "Two talented song-and-dance men team up after the war to become one of the hottest acts in show business. In time they befriend and become romantically involved with the beautiful Haynes sisters who comprise a sister act.",
     "popularity": 13.125,
-    "poster_path": "/A5kBQsHKbIptxJyELEpHQJROCRj.jpg",
+    "poster_path": "A5kBQsHKbIptxJyELEpHQJROCRj.jpg",
     "production_companies": [
       {
         "id": 4,
@@ -86,7 +86,7 @@ export const movieInfo =[
     "original_title": "Christmas Harmony",
     "overview": "A young woman returns to her small hometown to rediscover music, family bonds, and the magic of the Christmas season.",
     "popularity": 37.368,
-    "poster_path": "/8yjJTGOJiTj4lGnkSFlUmUGsZCS.jpg",
+    "poster_path": "8yjJTGOJiTj4lGnkSFlUmUGsZCS.jpg",
     "production_companies": [
       {
         "id": 3431,
@@ -137,7 +137,7 @@ export const movieInfo =[
     "original_title": "The Christmas Chronicles",
     "overview": "Siblings Kate and Teddy try to prove Santa Claus is real, but when they accidentally cause his sleigh to crash, they have to save Christmas.",
     "popularity": 88.046,
-    "poster_path": "/5Il2EMSF2KecrUKZPuen6BZmaCP.jpg",
+    "poster_path": "5Il2EMSF2KecrUKZPuen6BZmaCP.jpg",
     "production_companies": [
       {
         "id": 436,
@@ -208,7 +208,7 @@ export const movieInfo =[
     "original_title": "Christmas Perfection",
     "overview": "As a kid, Darcy (Thompson) had no control over her family’s holidays and thus, has grown up to be a Christmas control freak — so much so that she loses sight of what the holidays actually mean. Suddenly, she finds herself magically transported into her idea of the perfect Christmas Village and learns that ‘perfection’ isn’t all it’s cracked up to be.",
     "popularity": 18.091,
-    "poster_path": "/hb1bDa5GAta33EBm047ajbkUWa0.jpg",
+    "poster_path": "hb1bDa5GAta33EBm047ajbkUWa0.jpg",
     "production_companies": [
       {
         "id": 3431,
@@ -255,7 +255,7 @@ export const movieInfo =[
     "original_title": "Christmas Everlasting",
     "overview": "Christmas is fast approaching and years of long workdays employed at New York’s top corporate law firm are about to pay off now that Lucy Toomey will be made partner after the New Year. However, when Alice, her older sister with special needs, unexpectedly passes away, Lucy returns back to Nilson’s Bay, Wis., to attend the funeral and handle her estate. While Lucy dreads returning to her childhood home, she also feels real sorrow that she was too busy to take her sister’s last call. Once back in Nilson’s Bay, Lucy meets Peter, her old high school sweetheart and Alice’s former attorney, who informs her of the terms of Alice’s eccentric will that states in order for Lucy to inherit the family home, she must live there for 30 days through the holidays.",
     "popularity": 13.512,
-    "poster_path": "/zMKd2QgO7OCQn25bqUbGmBupBOG.jpg",
+    "poster_path": "zMKd2QgO7OCQn25bqUbGmBupBOG.jpg",
     "production_companies": [
       {
         "id": 9027,
@@ -310,7 +310,7 @@ export const movieInfo =[
     "original_title": "Christmas Wedding Planner",
     "overview": "Wedding Planner, Kelsey Wilson, is about to have her big break: planning her beloved cousin's lavish and exclusive wedding. Everything is going smoothly until Connor McClane, a devilishly handsome private investigator, shows up and turns Kelsey's world upside-down. Hired by a secret source, Connor quickly disrupts the upcoming nuptials but wins Kelsey's heart in the process.",
     "popularity": 29.764,
-    "poster_path": "/eiXeO0UXYLqASWcuJMJNgWqGqmC.jpg",
+    "poster_path": "eiXeO0UXYLqASWcuJMJNgWqGqmC.jpg",
     "production_companies": [],
     "production_countries": [],
     "release_date": "2017-12-14",
@@ -351,7 +351,7 @@ export const movieInfo =[
     "original_title": "Christmas Inheritance",
     "overview": "To inherit her father's company, socialite Ellen must first visit his small hometown, where she learns the value of hard work and helping others.",
     "popularity": 12.477,
-    "poster_path": "/sqdbF40nBzS2IZVAGPxJT7loxoM.jpg",
+    "poster_path": "sqdbF40nBzS2IZVAGPxJT7loxoM.jpg",
     "production_companies": [
       {
         "id": 20068,
@@ -414,7 +414,7 @@ export const movieInfo =[
     "original_title": "A Christmas Carol",
     "overview": "Miser Ebenezer Scrooge is awakened on Christmas Eve by spirits who reveal to him his own miserable existence, what opportunities he wasted in his youth, his current cruelties, and the dire fate that awaits him if he does not change his ways. Scrooge is faced with his own story of growing bitterness and meanness, and must decide what his own future will hold: death or redemption.",
     "popularity": 27.963,
-    "poster_path": "/jeOCcjUAcSYleVwhsaKEPT4CYwF.jpg",
+    "poster_path": "jeOCcjUAcSYleVwhsaKEPT4CYwF.jpg",
     "production_companies": [
       {
         "id": 2,
@@ -481,7 +481,7 @@ export const movieInfo =[
     "original_title": "Arthur Christmas",
     "overview": "Each Christmas, Santa and his vast army of highly trained elves produce gifts and distribute them around the world in one night. However, when one of 600 million children to receive a gift from Santa on Christmas Eve is missed, it is deemed ‘acceptable’ to all but one – Arthur. Arthur Claus is Santa’s misfit son who executes an unauthorized rookie mission to get the last present half way around the globe before dawn on Christmas morning.",
     "popularity": 11.637,
-    "poster_path": "/brELZkSbkLrcCXJ0xt5hQUMXhut.jpg",
+    "poster_path": "brELZkSbkLrcCXJ0xt5hQUMXhut.jpg",
     "production_companies": [
       {
         "id": 5,
@@ -550,7 +550,7 @@ export const movieInfo =[
     "original_title": "Black Christmas",
     "overview": "An escaped maniac returns to his childhood home on Christmas Eve, which is now a sorority house, and begins to murder the sorority sisters one by one. A remake of the 1974 horror movie, Black Christmas.",
     "popularity": 10.3,
-    "poster_path": "/awKDTSKyQnskzB0DZfORBPzhCE5.jpg",
+    "poster_path": "awKDTSKyQnskzB0DZfORBPzhCE5.jpg",
     "production_companies": [
       {
         "id": 7405,
@@ -611,7 +611,7 @@ export const movieInfo =[
     "original_title": "Christmas Mail",
     "overview": "In this holiday romantic comedy, a mysterious woman who works at the post office answering Santa's mail captures the heart of a disillusioned postal carrier",
     "popularity": 9.3,
-    "poster_path": "/kOQMJKHsmT3T5lAlmkAIpNrdu51.jpg",
+    "poster_path": "kOQMJKHsmT3T5lAlmkAIpNrdu51.jpg",
     "production_companies": [],
     "production_countries": [
       {
@@ -661,7 +661,7 @@ export const movieInfo =[
     "original_title": "How the Grinch Stole Christmas",
     "overview": "Inside a snowflake exists the magical land of Whoville. In Whoville, live the Whos, an almost mutated sort of Munchkin-like people. All the Whos love Christmas, yet just outside of their beloved Whoville lives the Grinch. The Grinch is a nasty creature that hates Christmas, and plots to steal it away from the Whos, whom he equally abhors. Yet a small child, Cindy Lou Who, decides to try befriending the Grinch.",
     "popularity": 32.239,
-    "poster_path": "/vQfgNHbcIWS2j3AAAzLOtPUGVmB.jpg",
+    "poster_path": "vQfgNHbcIWS2j3AAAzLOtPUGVmB.jpg",
     "production_companies": [
       {
         "id": 33,
@@ -708,7 +708,7 @@ export const movieInfo =[
     "belongs_to_collection": {
       "id": 201873,
       "name": "A Christmas Story Collection",
-      "poster_path": "/qjHPRBBiluOwJZp7AcMtrs0dNPr.jpg",
+      "poster_path": "qjHPRBBiluOwJZp7AcMtrs0dNPr.jpg",
       "backdrop_path": "/sDJLWSHdsORRGMEii0SWvm7DMwN.jpg"
     },
     "budget": 0,
@@ -729,7 +729,7 @@ export const movieInfo =[
     "original_title": "A Christmas Story",
     "overview": "The comic mishaps and adventures of a young boy named Ralph, trying to convince his parents, teachers, and Santa that a Red Ryder B.B. gun really is the perfect Christmas gift for the 1940s.",
     "popularity": 17.47,
-    "poster_path": "/1dSFarRSXwMjFODxPTwyaiNZotF.jpg",
+    "poster_path": "1dSFarRSXwMjFODxPTwyaiNZotF.jpg",
     "production_companies": [
       {
         "id": 10757,
@@ -796,7 +796,7 @@ export const movieInfo =[
     "original_title": "The Nightmare Before Christmas",
     "overview": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
     "popularity": 17.191,
-    "poster_path": "/6oxkO1VgKCq74fNILKAg6t2dVEt.jpg",
+    "poster_path": "6oxkO1VgKCq74fNILKAg6t2dVEt.jpg",
     "production_companies": [
       {
         "id": 8601,
@@ -845,7 +845,7 @@ export const movieInfo =[
     "belongs_to_collection": {
       "id": 108693,
       "name": "National Lampoon's Vacation Collection",
-      "poster_path": "/zvEUkLpDO7xlgabBEA9CCc0cvAt.jpg",
+      "poster_path": "zvEUkLpDO7xlgabBEA9CCc0cvAt.jpg",
       "backdrop_path": "/pBmhj6KkEjlzc3e7jAPkIHgGIrE.jpg"
     },
     "budget": 27000000,
@@ -862,7 +862,7 @@ export const movieInfo =[
     "original_title": "National Lampoon's Christmas Vacation",
     "overview": "It's Christmas time and the Griswolds are preparing for a family seasonal celebration, but things never run smoothly for Clark, his wife Ellen and their two kids. Clark's continual bad luck is worsened by his obnoxious family guests, but he manages to keep going knowing that his Christmas bonus is due soon.",
     "popularity": 30.1,
-    "poster_path": "/uh2sQFjRXCwexWcBtV7OEnL1c5G.jpg",
+    "poster_path": "uh2sQFjRXCwexWcBtV7OEnL1c5G.jpg",
     "production_companies": [
       {
         "id": 477,
@@ -925,7 +925,7 @@ export const movieInfo =[
     "original_title": "The Truth About Christmas",
     "overview": "Jillian, a successful political consultant whose next big project is the upcoming mayoral campaign for her boyfriend, is on the way to meet George’s family for the first time. After an unusual confrontation with a toy store Santa, Jillian can’t stop herself from wildly spilling the truth. Jillian must find a way to make it stop before her holidays, her job and her relationship are ruined.",
     "popularity": 17.115,
-    "poster_path": "/3yCa7AJ1bCub5GBkfq1NpK9O3CB.jpg",
+    "poster_path": "3yCa7AJ1bCub5GBkfq1NpK9O3CB.jpg",
     "production_companies": [
       {
         "id": 98374,
@@ -969,7 +969,7 @@ export const movieInfo =[
     "original_title": "Merry Christmas",
     "overview": "",
     "popularity": 4.401,
-    "poster_path": "/7ZK1jsGg4fuj9uSmLmIlVJDIvKG.jpg",
+    "poster_path": "7ZK1jsGg4fuj9uSmLmIlVJDIvKG.jpg",
     "production_companies": [],
     "production_countries": [
       {
@@ -1023,7 +1023,7 @@ export const movieInfo =[
     "original_title": "A Charlie Brown Christmas",
     "overview": "When Charlie Brown complains about the overwhelming materialism that he sees amongst everyone during the Christmas season, Lucy suggests that he become director of the school Christmas pageant. Charlie Brown accepts, but is a frustrating struggle. When an attempt to restore the proper spirit with a forlorn little fir Christmas tree fails, he needs Linus' help to learn the meaning of Christmas.",
     "popularity": 15.608,
-    "poster_path": "/3Bn0tc1BsheZwUQtvl10wTgQ16J.jpg",
+    "poster_path": "3Bn0tc1BsheZwUQtvl10wTgQ16J.jpg",
     "production_companies": [
       {
         "id": 52263,
@@ -1062,7 +1062,7 @@ export const movieInfo =[
     "original_title": "The Muppet Christmas Carol",
     "overview": "A retelling of the classic Dickens tale of Ebenezer Scrooge, miser extraordinaire. He is held accountable for his dastardly ways during night-time visitations by the Ghosts of Christmas Past, Present, and future.",
     "popularity": 15.157,
-    "poster_path": "/fe4nLJkDNXhyuMnrZ60MfoSpPes.jpg",
+    "poster_path": "fe4nLJkDNXhyuMnrZ60MfoSpPes.jpg",
     "production_companies": [
       {
         "id": 2,
@@ -1121,7 +1121,7 @@ export const movieInfo =[
     "original_title": "Every Day is Christmas",
     "overview": "Inspired by the Charles Dickens classic A Christmas Carol, shrewd money manager Alexis Taylor (Braxton) gets the holiday visit of a lifetime.  A self-proclaimed workaholic who ‘humbugs’ love, Alexis ends up embracing the spirit of Christmas when her past, present, and future collide, forcing her to risk the one thing money can’t buy: her heart.",
     "popularity": 14.584,
-    "poster_path": "/vvlJCcAwP9sF9qYDT93o1Krp8dt.jpg",
+    "poster_path": "vvlJCcAwP9sF9qYDT93o1Krp8dt.jpg",
     "production_companies": [],
     "production_countries": [],
     "release_date": "2018-11-24",
@@ -1157,7 +1157,7 @@ export const movieInfo =[
     "original_title": "Disney's Very Merry Christmas Sing Along Songs",
     "overview": "Get ready to celebrate this warm and wonderful time of year, and sing along with the Christmas carols you love best! Plus, join in a jolly chorus of new holiday sing alongs - featuring your favorite Disney characters! Learning the lyrics is easy and fun, because the words appear right on the screen. Whether you're having a party, starting a brand-new family tradition or simply getting into the Yuletide spirit, Disney's Very Merry Christmas Sing Along Songs brings the gift of music and laughter home for the holidays!",
     "popularity": 1.971,
-    "poster_path": "/zs3ftKQyGMRwaUK8R8OncMdwEyx.jpg",
+    "poster_path": "zs3ftKQyGMRwaUK8R8OncMdwEyx.jpg",
     "production_companies": [
       {
         "id": 3202,
@@ -1201,7 +1201,7 @@ export const movieInfo =[
     "original_title": "Disney Princess: A Christmas of Enchantment",
     "overview": "Welcome to a wondrous place of music and magic where your favorite Disney Princesses have gathered for their first-ever holiday spectacular: DISNEY PRINCESS -- A CHRISTMAS OF ENCHANTMENT. You'll enjoy the best seat in the house as you share holiday stories, songs, and surprises with Ariel, Cinderella, Belle, Aurora, Jasmine, and Snow White. Join Aurora as she waltzes to the \"Dance Of The Sugar Plum Fairy.\" Read along with Ariel as she tells a heartwarming tale about her very first Christmas, and learn how Belle brought hope and cheer to Beast one magical holiday. Plus, as a treat, the Disney Princesses perform an all-new song that celebrates the beauty of the season. Invite your little princess to join in this dazzling dream come true with all her favorite characters. Make Disney DISNEY PRINCESS -- A CHRISTMAS OF ENCHANTMENT part of your family's holiday tradition ... now and forever.",
     "popularity": 1.575,
-    "poster_path": "/lnpArUfU7kIF2cubQZTIlG3azyN.jpg",
+    "poster_path": "lnpArUfU7kIF2cubQZTIlG3azyN.jpg",
     "production_companies": [
       {
         "id": 34393,
@@ -1238,7 +1238,7 @@ export const movieInfo =[
     "belongs_to_collection": {
       "id": 423173,
       "name": "Bad Santa Collection",
-      "poster_path": "/2OkB4GagVy1n7M8Q94FRzsOErPE.jpg",
+      "poster_path": "2OkB4GagVy1n7M8Q94FRzsOErPE.jpg",
       "backdrop_path": "/plVMZOMBsHUNNkCQEoY1rW0B5Qb.jpg"
     },
     "budget": 23000000,
@@ -1263,7 +1263,7 @@ export const movieInfo =[
     "original_title": "Bad Santa",
     "overview": "A miserable conman and his partner pose as Santa and his Little Helper to rob department stores on Christmas Eve. But they run into problems when the conman befriends a troubled kid, and the security boss discovers the plot.",
     "popularity": 19.7,
-    "poster_path": "/103KNOz11U4iojwW6F1rOKKZIDp.jpg",
+    "poster_path": "103KNOz11U4iojwW6F1rOKKZIDp.jpg",
     "production_companies": [
       {
         "id": 7405,
@@ -1316,7 +1316,7 @@ export const movieInfo =[
     "belongs_to_collection": {
       "id": 53159,
       "name": "The Santa Clause Collection",
-      "poster_path": "/1h8iA6i2DpPhsHC65nUB2voVnm5.jpg",
+      "poster_path": "1h8iA6i2DpPhsHC65nUB2voVnm5.jpg",
       "backdrop_path": "/jQiwVHJN1rsS4DqhF7hlYZTYCH.jpg"
     },
     "budget": 10000000,
@@ -1341,7 +1341,7 @@ export const movieInfo =[
     "original_title": "The Santa Clause 2",
     "overview": "Better watch out! The big guy in red is coming to town once again. This time, Scott Calvin -- also known as Santa Claus -- finds out there's an obscure clause in his contract requiring him to take on a wife. He has to leave the North Pole to fulfill his obligations, or else he'll be forced to give up his Yuletide gig.",
     "popularity": 19.77,
-    "poster_path": "/i7tbiDPIaa4VsQh1wWmbkY4zTRX.jpg",
+    "poster_path": "i7tbiDPIaa4VsQh1wWmbkY4zTRX.jpg",
     "production_companies": [
       {
         "id": 12626,
@@ -1402,7 +1402,7 @@ export const movieInfo =[
     "original_title": "Santa & Cie",
     "overview": "Christmas is on its way and with it disaster. The 92,000 responsible for manufacturing children's toys all become sick at the same time! It's a tough moment for Santa, better known as Father Christmas. He's left no choice: he must make an emergency trip to Earth with his reindeer to search for a remedy. When he arrives, he must find some allies to save the magic of Christmas.",
     "popularity": 8.757,
-    "poster_path": "/mrz2fC1F9H8kbdKu2vOwyeMAzvg.jpg",
+    "poster_path": "mrz2fC1F9H8kbdKu2vOwyeMAzvg.jpg",
     "production_companies": [
       {
         "id": 23256,
@@ -1445,7 +1445,7 @@ export const movieInfo =[
     "belongs_to_collection": {
       "id": 91657,
       "name": "Disney Buddies Collection",
-      "poster_path": "/c0SunvY1GV56ezlaOYjAxkpV1Ng.jpg",
+      "poster_path": "c0SunvY1GV56ezlaOYjAxkpV1Ng.jpg",
       "backdrop_path": "/tDhCsQaxFmdorEZHIgVaZH0MGDs.jpg"
     },
     "budget": 0,
@@ -1466,7 +1466,7 @@ export const movieInfo =[
     "original_title": "Santa Buddies",
     "overview": "When Puppy Paws, the fun-loving son of Santa Paws, gets bored, he finds Budderball on Santa's naughty list and figures he's just the dog to show him how to be an ordinary pup. When the magical Christmas Icicle starts to melt however, and the world begins to forget the true meaning of the season, it's up to Puppy Paws and his newfound Buddies to journey back to the North Pole and save Christmas.",
     "popularity": 5.589,
-    "poster_path": "/4du23VE8zJmyk9yJ2X7DQvKhF2L.jpg",
+    "poster_path": "4du23VE8zJmyk9yJ2X7DQvKhF2L.jpg",
     "production_companies": [
       {
         "id": 2,
@@ -1549,7 +1549,7 @@ export const movieInfo =[
     "original_title": "Santa sangre",
     "overview": "A young man is confined in a mental hospital. Through a flashback we see that he was traumatized as a child, when he and his family were circus performers: he saw his father cut off the arms of his mother, a religious fanatic and leader of the heretical church of Santa Sangre (\"Holy Blood\"), and then commit suicide. Back in the present, he escapes and rejoins his surviving and armless mother.",
     "popularity": 5.108,
-    "poster_path": "/4g8AMbqh4evHQwI1td63TH5cZTb.jpg",
+    "poster_path": "4g8AMbqh4evHQwI1td63TH5cZTb.jpg",
     "production_companies": [
       {
         "id": 13122,
@@ -1614,7 +1614,7 @@ export const movieInfo =[
     "original_title": "Saving Santa",
     "overview": "A lowly stable elf finds that he is the only one who can stop an invasion of the North Pole by using the secret of Santa's Sleigh, a TimeGlobe, to travel back in time to Save Santa - twice.",
     "popularity": 3.853,
-    "poster_path": "/wIr5gosI2cgjqyHN6nIJZdwgz58.jpg",
+    "poster_path": "wIr5gosI2cgjqyHN6nIJZdwgz58.jpg",
     "production_companies": [
       {
         "id": 18713,
@@ -1687,7 +1687,7 @@ export const movieInfo =[
     "original_title": "Get Santa",
     "overview": "A father and son must team up to save Christmas when they discover Santa Claus sleeping in their garage, having crashed his sleigh and found himself on the run from the police.",
     "popularity": 3.648,
-    "poster_path": "/3mUrojiqrTqj9wJ7UFY3nZ2GDB9.jpg",
+    "poster_path": "3mUrojiqrTqj9wJ7UFY3nZ2GDB9.jpg",
     "production_companies": [
       {
         "id": 2801,
@@ -1768,7 +1768,7 @@ export const movieInfo =[
     "original_title": "Santa Claus: The Movie",
     "overview": "The first half of this film, set hundreds of years ago, shows how the old man who eventually became Santa Claus was given immortality and chosen to deliver toys to all the children of the world. The second half moves into the modern era, in which Patch, the head elf, strikes out on his own and falls in with an evil toy manufacturer who wants to corner the market and eliminate Santa Claus.",
     "popularity": 4.843,
-    "poster_path": "/tZvGQF2623FD0MZgvOy18J5d7x5.jpg",
+    "poster_path": "tZvGQF2623FD0MZgvOy18J5d7x5.jpg",
     "production_companies": [
       {
         "id": 559,
@@ -1835,7 +1835,7 @@ export const movieInfo =[
     "original_title": "Dear Santa",
     "overview": "Crystal, a rich party girl, finds a little girl's letter to Santa asking for a new mother, and she vows to win over the father and daughter before the holidays.",
     "popularity": 2.735,
-    "poster_path": "/mY87tKi0Wssob2J3dykNDamjLUz.jpg",
+    "poster_path": "mY87tKi0Wssob2J3dykNDamjLUz.jpg",
     "production_companies": [
       {
         "id": 12467,
@@ -1900,7 +1900,7 @@ export const movieInfo =[
     "original_title": "Santa Who?",
     "overview": "Santa Claus develops amnesia after accidentally falling out of his sleigh and only the innocence of a small child can save him. Meanwhile, Santa has to battle the disbelief of a newsman.",
     "popularity": 2.699,
-    "poster_path": "/3ToHKX9c7RbGOJPBgfOAqNeXRnc.jpg",
+    "poster_path": "3ToHKX9c7RbGOJPBgfOAqNeXRnc.jpg",
     "production_companies": [
       {
         "id": 12511,
@@ -1963,7 +1963,7 @@ export const movieInfo =[
     "original_title": "Finding Santa",
     "overview": "Christmas is a busy, busy time for the residents of Green River, particularly for Grace Long, the third generation of her family to steward the New England town’s signature Christmas Eve parade. This year’s audience for the parade promises to be in the millions, thanks to a national morning show that has chosen Green River as the site of its Christmas Eve day program.",
     "popularity": 2.412,
-    "poster_path": "/zYtk6l5drilvmjTUTKfFhotEkl.jpg",
+    "poster_path": "zYtk6l5drilvmjTUTKfFhotEkl.jpg",
     "production_companies": [],
     "production_countries": [],
     "release_date": "2017-11-24",
@@ -2008,7 +2008,7 @@ export const movieInfo =[
     "original_title": "Santa Claus",
     "overview": "Pitch, the mean-spirited devil, is trying to ruin Christmas. Santa Claus teams up with Merlin the Magician and the children of the world in order to save the day!",
     "popularity": 2.343,
-    "poster_path": "/8azrDHUunZJxFWTlJa8v9Cx5m2f.jpg",
+    "poster_path": "8azrDHUunZJxFWTlJa8v9Cx5m2f.jpg",
     "production_companies": [
       {
         "id": 11977,
@@ -2085,7 +2085,7 @@ export const movieInfo =[
     "belongs_to_collection": {
       "id": 53159,
       "name": "The Santa Clause Collection",
-      "poster_path": "/1h8iA6i2DpPhsHC65nUB2voVnm5.jpg",
+      "poster_path": "1h8iA6i2DpPhsHC65nUB2voVnm5.jpg",
       "backdrop_path": "/jQiwVHJN1rsS4DqhF7hlYZTYCH.jpg"
     },
     "budget": 12000000,
@@ -2110,7 +2110,7 @@ export const movieInfo =[
     "original_title": "The Santa Clause 3: The Escape Clause",
     "overview": "Now that Santa and Mrs. Claus have the North Pole running smoothly, the Counsel of Legendary Figures has called an emergency meeting on Christmas Eve! The evil Jack Frost has been making trouble, looking to take over the holiday! So he launches a plan to sabotage the toy factory and compel Scott to invoke the little-known Escape Clause and wish he'd never become Santa.",
     "popularity": 7.748,
-    "poster_path": "/kvKXyrc3cUGqXin2u76Ef8lApMI.jpg",
+    "poster_path": "kvKXyrc3cUGqXin2u76Ef8lApMI.jpg",
     "production_companies": [
       {
         "id": 95593,
@@ -2187,7 +2187,7 @@ export const movieInfo =[
     "original_title": "Christmas in Evergreen: Letters to Santa",
     "overview": "When Lisa (Wagner) takes a last-minute Christmas trip to her hometown of Evergreen, she finds that the historic general store has been closed. Using her skills as a professional retail designer, Lisa decides to keep local tradition alive and help the good people of Evergreen bring the store back to life. As Lisa charms a local contractor named Kevin (Deklin) into working with her, the pair find themselves facing one surprise after another as they restore the store to its former glory. When the staff at the Kringle Kitchen temporarily accept the store’s beloved ‘Mailbox to Santa’ for safekeeping, the townspeople find and rally around a mysterious 25-year-old letter that never made it to the North Pole. As old traditions are made new again, Lisa finds herself falling for Kevin, the traditions, and the town of Evergreen.",
     "popularity": 6.591,
-    "poster_path": "/n2Zbp9IPahWID80LPX3kXklxoL8.jpg",
+    "poster_path": "n2Zbp9IPahWID80LPX3kXklxoL8.jpg",
     "production_companies": [
       {
         "id": 4056,
@@ -2231,7 +2231,7 @@ export const movieInfo =[
     "original_title": "Scrooge",
     "overview": "Ebeneezer Scrooge (Alastair Sim) contentedly meanders through his life as a cruel miser until one fateful Christmas Eve when he is visited by three ghosts. The spirits show him how his behavior over the years has made him a lonely, bitter old man, and how his heart has grown colder. Using events from Scrooge's idealistic past, dreary present and dismal future, the apparitions try their best to melt his steely soul. Tightfisted Ebeneezer Scrooge learns the error of his ways through the intervention of the ghost of his former partner and of the three spirits and, just in time for the holidays, manages to make everyone's lives a little brighter, his included!",
     "popularity": 14.539,
-    "poster_path": "/xmhZp6rRFDjsoHWxPx5AKmUT1bZ.jpg",
+    "poster_path": "xmhZp6rRFDjsoHWxPx5AKmUT1bZ.jpg",
     "production_companies": [
       {
         "id": 8730,
@@ -2325,7 +2325,7 @@ export const movieInfo =[
     "original_title": "The Grinch",
     "overview": "The Grinch hatches a scheme to ruin Christmas when the residents of Whoville plan their annual holiday celebration.",
     "popularity": 137.09,
-    "poster_path": "/rWQVj6Z8kPdsbt7XPjVBCltxq90.jpg",
+    "poster_path": "rWQVj6Z8kPdsbt7XPjVBCltxq90.jpg",
     "production_companies": [
       {
         "id": 33,
@@ -2389,7 +2389,7 @@ export const movieInfo =[
     "original_title": "It's a Wonderful Life",
     "overview": "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.",
     "popularity": 28.376,
-    "poster_path": "/rgj6QjdyCeDrO9KGt1kusGyhvb2.jpg",
+    "poster_path": "rgj6QjdyCeDrO9KGt1kusGyhvb2.jpg",
     "production_companies": [
       {
         "id": 6,
@@ -2426,5 +2426,145 @@ export const movieInfo =[
     "vote_average": 8.2,
     "vote_count": 1698
   },
-  
+  {
+    "adult": false,
+    "backdrop_path": "/rcQZmnhcb6P4mkgJAHnCYp3c1gp.jpg",
+    "belongs_to_collection": {
+      "id": 53159,
+      "name": "The Santa Clause Collection",
+      "poster_path": "/1h8iA6i2DpPhsHC65nUB2voVnm5.jpg",
+      "backdrop_path": "/jQiwVHJN1rsS4DqhF7hlYZTYCH.jpg"
+    },
+    "budget": 10000000,
+    "genres": [
+      {
+        "id": 14,
+        "name": "Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10751,
+        "name": "Family"
+      }
+    ],
+    "homepage": null,
+    "id": 11395,
+    "imdb_id": "tt0111070",
+    "original_language": "en",
+    "original_title": "The Santa Clause",
+    "overview": "Scott Calvin is an ordinary man, who accidentally causes Santa Claus to fall from his roof on Christmas Eve and is knocked unconscious. When he and his young son finish Santa's trip and deliveries, they go to the North Pole, where Scott learns he must become the new Santa and convince those he loves that he is indeed, Father Christmas.",
+    "popularity": 9.696,
+    "poster_path": "hrZjAYAF1o37k4Qb442c4yxwVLw.jpg",
+    "production_companies": [
+      {
+        "id": 2,
+        "logo_path": "/4MbjW4f9bu6LvlDmyIvfyuT3boj.png",
+        "name": "Walt Disney Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 915,
+        "logo_path": "/xXojkyRWFZ0JTJyjiu13ThKeFbz.png",
+        "name": "Hollywood Pictures",
+        "origin_country": ""
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "1994-11-10",
+    "revenue": 0,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "What if your dad was Santa Claus?",
+    "title": "The Santa Clause",
+    "video": false,
+    "vote_average": 6.3,
+    "vote_count": 804
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/jRzrQ7Thcjpetr0n8B6w980eZet.jpg",
+    "belongs_to_collection": null,
+    "budget": 32000000,
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comedy"
+      },
+      {
+        "id": 10751,
+        "name": "Family"
+      },
+      {
+        "id": 14,
+        "name": "Fantasy"
+      }
+    ],
+    "homepage": null,
+    "id": 10719,
+    "imdb_id": "tt0319343",
+    "original_language": "en",
+    "original_title": "Elf",
+    "overview": "When young Buddy falls into Santa's gift sack on Christmas Eve, he's transported back to the North Pole and raised as a toy-making elf by Santa's helpers. But as he grows into adulthood, he can't shake the nagging feeling that he doesn't belong. Buddy vows to visit Manhattan and find his real dad, a workaholic publisher.",
+    "popularity": 36.522,
+    "poster_path": "9jChHqqcpe0zHNTqkNqWZkwkgil.jpg",
+    "production_companies": [
+      {
+        "id": 12,
+        "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
+        "name": "New Line Cinema",
+        "origin_country": "US"
+      },
+      {
+        "id": 1607,
+        "logo_path": null,
+        "name": "Gold/Miller Productions",
+        "origin_country": ""
+      },
+      {
+        "id": 2645,
+        "logo_path": null,
+        "name": "Guy Walks into a Bar Productions",
+        "origin_country": ""
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2003-10-09",
+    "revenue": 173398518,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "This holiday, discover your inner elf.",
+    "title": "Elf",
+    "video": false,
+    "vote_average": 6.5,
+    "vote_count": 1573
+  }
 ]

@@ -1,5 +1,5 @@
 import { pokemon } from './pokemon.js'
-import { pokeAdd } from './pokeAdd.js' 
+
 
 console.log(pokemon)
 
