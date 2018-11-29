@@ -7,7 +7,7 @@ console.log(pokemon)
 const pokeContainer = document.querySelector('#container')
 
 
-
+// create card function
 const cardCreator = (poke) =>{
  let card = document.createElement('div')
  card.className = "card"
@@ -15,6 +15,7 @@ const cardCreator = (poke) =>{
      card.classList.toggle('is-flipped');
  })
  
+ //card front
  let frontCard = document.createElement('figure')
  frontCard.className = "card__face card__face--front"
  console.log(`${poke.id}${poke.ename}.png`)
@@ -24,6 +25,8 @@ const cardCreator = (poke) =>{
 
  img.src = `images/${poke.id}${poke.ename}.png`
  cap.textContent = poke.ename
+
+ //attaching items to the DOM
  frontCard.appendChild(cap)
  frontCard.appendChild(img)
 
@@ -41,24 +44,20 @@ let attack = document.createElement('p')
 let defense = document.createElement('p')
 let speed = document.createElement('p')
 let hp = document.createElement('p')
-
 attack.textContent = `Attack: ${poke.base.Attack}`
 defense.textContent = `Defense: ${poke.base.Defense}`
 speed.textContent = `Speed: ${poke.base.Speed}`
 hp.textContent = `Hit Points: ${poke.base.HP}`
 
 
-
+//attaching items to the DOM
 cardBack.appendChild(imag)
  cardBack.appendChild(capt)
  cardBack.appendChild(attack)
 cardBack.appendChild(defense)
 cardBack.appendChild(speed)
 cardBack.appendChild(hp)
-
-
-
- card.appendChild(frontCard)
+card.appendChild(frontCard)
  card.appendChild(cardBack)
  pokeContainer.appendChild(card)
 }
@@ -66,16 +65,18 @@ cardBack.appendChild(hp)
 pokemon.forEach(element => cardCreator(element))
 
 
-let newCard = {
-   "ename": "Raichu", 
-    "id": "026", 
-    "base": {
-    "Attack": 90, 
-    "Defense": 55, 
-    "HP": 60,  
-    "Speed": 110
+
+
+// Constructor Function
+
+function NewCard (ename, id, base) {
+    this.ename = ename
+    this.id = id
+    this.base = base
+  
 }
-}
+
+let newCard = new NewCard("Raichu", 026, {"Attack": 90, "Defense": 55, "HP": 60, "Speed": 110})
 
 let create = document.querySelector('#create')
 create.addEventListener('click', () => {
@@ -89,16 +90,6 @@ createCard.addEventListener('click', () => {
   console.log("thanks for clicking!")
 })
 
-// Constructor Function
-
-function PokemonNew(ename, id, base) {
-    this.ename = ename
-    this.id = id
-    this.base = base
-  
-}
-
-let newPokemon = new PokemonNew("Mewtwo", 150, {"Attack": 49, "Defense": 49, "HP": 45})
 
 
 

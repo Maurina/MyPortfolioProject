@@ -99,44 +99,51 @@ nav ul li a:hover{
 
 }
 
-.twoBoxes{
-    display: flex;
-    justify-content: center;
-    background-color: red;
 
-}
 
 .poster{
 
-  width: 40%;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  flex-wrap: wrap;
+ 
 }
 
-.info{
-
-  width: 40%;
-  padding-left: 4%;
-  padding-right: 4%;
-
-}
 
 h2{
   font-size: 3rem;
   color: #fff;
-  padding-top: 8rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
+  width: 100%;
+ 
 }
 
-p {
+h3 {
+  width: 100%;
+  font-size: 2rem;
+  color: #fff;
+  padding-bottom: 2rem;
+  
+}
+
+h4 {
+  width: 100%;
   font-size: 1.5rem;
   color: #fff;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  
 }
 
 blockquote{
   color: #fff;
-  font-size: 2rem;
-  padding-bottom: 1rem;
- padding-top: 5rem;
+  font-size: 1.5rem;
+  padding-bottom: 5.5rem;
+ padding-top: 1rem;
+ padding-left: 4%;
+ padding-right: 4%;
+
 }
 
 
@@ -148,7 +155,8 @@ figcaption{
   margin-bottom: 2rem;
 }
 img{
-    width: 100%;
+    width: 40%;
     padding-bottom: .5rem;
     padding-top: 1rem;
+  
 }

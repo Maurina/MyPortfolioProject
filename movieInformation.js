@@ -229,69 +229,7 @@ export const movies =[
     "vote_average": 6,
     "vote_count": 1
   },
-  {
-    "adult": false,
-    "backdrop_path": "/k8SdUjTNfQmtzZB1JYQODNlTtmK.jpg",
-    "belongs_to_collection": null,
-    "budget": 0,
-    "genres": [
-      {
-        "id": 10749,
-        "name": "Romance"
-      },
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 10770,
-        "name": "TV Movie"
-      }
-    ],
-    "homepage": "http://www.hallmarkchannel.com/christmas-everlasting",
-    "id": 549319,
-    "imdb_id": "tt9028802",
-    "original_language": "en",
-    "original_title": "Christmas Everlasting",
-    "overview": "Christmas is fast approaching and years of long workdays employed at New York’s top corporate law firm are about to pay off now that Lucy Toomey will be made partner after the New Year. However, when Alice, her older sister with special needs, unexpectedly passes away, Lucy returns back to Nilson’s Bay, Wis., to attend the funeral and handle her estate. While Lucy dreads returning to her childhood home, she also feels real sorrow that she was too busy to take her sister’s last call. Once back in Nilson’s Bay, Lucy meets Peter, her old high school sweetheart and Alice’s former attorney, who informs her of the terms of Alice’s eccentric will that states in order for Lucy to inherit the family home, she must live there for 30 days through the holidays.",
-    "popularity": 13.512,
-    "poster_path": "zMKd2QgO7OCQn25bqUbGmBupBOG.jpg",
-    "production_companies": [
-      {
-        "id": 9027,
-        "logo_path": null,
-        "name": "Hallmark Hall of Fame Productions",
-        "origin_country": ""
-      },
-      {
-        "id": 4056,
-        "logo_path": "/wTob2fM4pFaSkCev3AR524jwgsU.png",
-        "name": "Hallmark",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2018-11-24",
-    "revenue": 0,
-    "runtime": 84,
-    "spoken_languages": [
-      {
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "",
-    "title": "Christmas Everlasting",
-    "video": false,
-    "vote_average": 0,
-    "vote_count": 0
-  },
+  
   {
     "adult": false,
     "backdrop_path": "/2jB7zzzvBxFCdEPOWKLP4yakPGp.jpg",
@@ -451,83 +389,7 @@ export const movies =[
     "vote_average": 6.7,
     "vote_count": 1976
   },
-  {
-    "adult": false,
-    "backdrop_path": "/5mfMJpkO0mxDViHEeebFrzesdwc.jpg",
-    "belongs_to_collection": null,
-    "budget": 10000000,
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 16,
-        "name": "Animation"
-      },
-      {
-        "id": 10751,
-        "name": "Family"
-      },
-      {
-        "id": 35,
-        "name": "Comedy"
-      }
-    ],
-    "homepage": "http://www.arthurchristmas.com/",
-    "id": 51052,
-    "imdb_id": "tt1430607",
-    "original_language": "en",
-    "original_title": "Arthur Christmas",
-    "overview": "Each Christmas, Santa and his vast army of highly trained elves produce gifts and distribute them around the world in one night. However, when one of 600 million children to receive a gift from Santa on Christmas Eve is missed, it is deemed ‘acceptable’ to all but one – Arthur. Arthur Claus is Santa’s misfit son who executes an unauthorized rookie mission to get the last present half way around the globe before dawn on Christmas morning.",
-    "popularity": 11.637,
-    "poster_path": "brELZkSbkLrcCXJ0xt5hQUMXhut.jpg",
-    "production_companies": [
-      {
-        "id": 5,
-        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-        "name": "Columbia Pictures",
-        "origin_country": "US"
-      },
-      {
-        "id": 297,
-        "logo_path": "/ykJbf1z5qIreJrHWfnh1ev1alkD.png",
-        "name": "Aardman Animations",
-        "origin_country": "GB"
-      },
-      {
-        "id": 2251,
-        "logo_path": "/8PUjvTVmtJDdDXURTaSoPID0Boj.png",
-        "name": "Sony Pictures Animation",
-        "origin_country": "US"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "GB",
-        "name": "United Kingdom"
-      },
-      {
-        "iso_3166_1": "US",
-        "name": "United States of America"
-      }
-    ],
-    "release_date": "2011-02-22",
-    "revenue": 0,
-    "runtime": 97,
-    "spoken_languages": [
-      {
-        "iso_639_1": "en",
-        "name": "English"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Ever wonder how 2 Billion presents get delivered all in 1 night?",
-    "title": "Arthur Christmas",
-    "video": false,
-    "vote_average": 6.7,
-    "vote_count": 548
-  },
+
   {
     "adult": false,
     "backdrop_path": "/iZCwgzx0hAwooZulFIhEuYqLd8W.jpg",
@@ -2268,33 +2130,7 @@ export const movies =[
     "vote_average": 7.4,
     "vote_count": 107
   },
-  {
-    "adult": false,
-    "backdrop_path": null,
-    "belongs_to_collection": null,
-    "budget": 0,
-    "genres": [],
-    "homepage": null,
-    "id": 440236,
-    "imdb_id": "tt0228826",
-    "original_language": "en",
-    "original_title": "Scrooge",
-    "overview": "On Christmas Eve, an old miser named Ebenezer Scrooge is visited by the spirit of his former partner, Jacob Marley. The deceased partner was in his lifetime as mean and miserly as Scrooge is now and he warns him to change his ways or face the consequences in the afterlife.",
-    "popularity": 0.6,
-    "poster_path": null,
-    "production_companies": [],
-    "production_countries": [],
-    "release_date": "1978-12-22",
-    "revenue": 0,
-    "runtime": 70,
-    "spoken_languages": [],
-    "status": "Released",
-    "tagline": "",
-    "title": "Scrooge",
-    "video": false,
-    "vote_average": 0,
-    "vote_count": 0
-  },
+ 
   {
     "adult": false,
     "backdrop_path": "/zRDkmww7Bu11wiz2g86RxSreiY4.jpg",
@@ -2566,5 +2402,145 @@ export const movies =[
     "video": false,
     "vote_average": 6.5,
     "vote_count": 1573
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/5mfMJpkO0mxDViHEeebFrzesdwc.jpg",
+    "belongs_to_collection": null,
+    "budget": 10000000,
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 16,
+        "name": "Animation"
+      },
+      {
+        "id": 10751,
+        "name": "Family"
+      },
+      {
+        "id": 35,
+        "name": "Comedy"
+      }
+    ],
+    "homepage": "http://www.arthurchristmas.com/",
+    "id": 51052,
+    "imdb_id": "tt1430607",
+    "original_language": "en",
+    "original_title": "Arthur Christmas",
+    "overview": "Each Christmas, Santa and his vast army of highly trained elves produce gifts and distribute them around the world in one night. However, when one of 600 million children to receive a gift from Santa on Christmas Eve is missed, it is deemed ‘acceptable’ to all but one – Arthur. Arthur Claus is Santa’s misfit son who executes an unauthorized rookie mission to get the last present half way around the globe before dawn on Christmas morning.",
+    "popularity": 11.637,
+    "poster_path": "brELZkSbkLrcCXJ0xt5hQUMXhut.jpg",
+    "production_companies": [
+      {
+        "id": 5,
+        "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+        "name": "Columbia Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 297,
+        "logo_path": "/ykJbf1z5qIreJrHWfnh1ev1alkD.png",
+        "name": "Aardman Animations",
+        "origin_country": "GB"
+      },
+      {
+        "id": 2251,
+        "logo_path": "/8PUjvTVmtJDdDXURTaSoPID0Boj.png",
+        "name": "Sony Pictures Animation",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2011-02-22",
+    "revenue": 0,
+    "runtime": 97,
+    "spoken_languages": [
+      {
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Ever wonder how 2 Billion presents get delivered all in 1 night?",
+    "title": "Arthur Christmas",
+    "video": false,
+    "vote_average": 6.7,
+    "vote_count": 548
+  },
+  {
+    "adult": false,
+    "backdrop_path": "/k8SdUjTNfQmtzZB1JYQODNlTtmK.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+      {
+        "id": 10749,
+        "name": "Romance"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10770,
+        "name": "TV Movie"
+      }
+    ],
+    "homepage": "http://www.hallmarkchannel.com/christmas-everlasting",
+    "id": 549319,
+    "imdb_id": "tt9028802",
+    "original_language": "en",
+    "original_title": "Christmas Everlasting",
+    "overview": "Christmas is fast approaching and years of long workdays employed at New York’s top corporate law firm are about to pay off now that Lucy Toomey will be made partner after the New Year. However, when Alice, her older sister with special needs, unexpectedly passes away, Lucy returns back to Nilson’s Bay, Wis., to attend the funeral and handle her estate. While Lucy dreads returning to her childhood home, she also feels real sorrow that she was too busy to take her sister’s last call. Once back in Nilson’s Bay, Lucy meets Peter, her old high school sweetheart and Alice’s former attorney, who informs her of the terms of Alice’s eccentric will that states in order for Lucy to inherit the family home, she must live there for 30 days through the holidays.",
+    "popularity": 13.512,
+    "poster_path": "zMKd2QgO7OCQn25bqUbGmBupBOG.jpg",
+    "production_companies": [
+      {
+        "id": 9027,
+        "logo_path": null,
+        "name": "Hallmark Hall of Fame Productions",
+        "origin_country": ""
+      },
+      {
+        "id": 4056,
+        "logo_path": "/wTob2fM4pFaSkCev3AR524jwgsU.png",
+        "name": "Hallmark",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2018-11-24",
+    "revenue": 0,
+    "runtime": 84,
+    "spoken_languages": [
+      {
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Christmas Everlasting",
+    "video": false,
+    "vote_average": 0,
+    "vote_count": 0
   }
 ]
