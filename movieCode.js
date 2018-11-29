@@ -21,9 +21,11 @@ let moviePoster = document.querySelector('.poster')
    
     moviePic.src = `images/${movie.id}.jpg`
 
-    moviePoster.appendChild(moviePic)
+    
     
 
+
+    const drama = movies.filter (movie => movie.genres.name === "Drama")
 /*-------------------------------------- Movie Info -------------------------------------------------- */
     let movieText = document.querySelector('.info')
     
@@ -48,7 +50,8 @@ let moviePoster = document.querySelector('.poster')
     let quote = document.createElement('blockquote')
     quote.textContent = movie.overview
     
-    
+    /*-------------------------------------- Attaching items to the DOM ----------------------------------- */
+    moviePoster.appendChild(moviePic)
     moviePoster.appendChild(title)
     moviePoster.appendChild(tagline)
     moviePoster.appendChild(runTime)
@@ -58,9 +61,10 @@ let moviePoster = document.querySelector('.poster')
 
  
 })
+ 
 
 
-
+/*-------------------------------------- Filter into Genres ----------------------------------- */
 
 
 

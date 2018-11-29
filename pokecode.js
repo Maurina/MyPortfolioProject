@@ -69,18 +69,20 @@ pokemon.forEach(element => cardCreator(element))
 
 // Constructor Function
 
-function NewCard (ename, id, base) {
-    this.ename = ename
-    this.id = id
-    this.base = base
-  
+
+class Pokemon {
+    constructor (ename, id, base) {
+        this.ename = ename,
+        this.id = id,
+        this.base = base
+      }
 }
 
-let newCard = new NewCard("Raichu", 026, {"Attack": 90, "Defense": 55, "HP": 60, "Speed": 110})
+let newPokemon = new Pokemon('Raichu', '026', {'Attack': 90, 'Defense': 55, 'HP': 60, 'Speed': 110})
 
 let create = document.querySelector('#create')
 create.addEventListener('click', () => {
-return cardCreator(newCard)
+return cardCreator(newPokemon)
 })
 
 let createCard = document.createElement('div')
@@ -89,6 +91,8 @@ createCard.addEventListener('click', () => {
   
   console.log("thanks for clicking!")
 })
+// ES6 style construtor
+
 
 
 
