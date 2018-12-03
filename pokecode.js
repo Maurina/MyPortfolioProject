@@ -78,6 +78,7 @@ class Pokemon {
       }
 }
 
+// ES6 style construtor
 let newPokemon = new Pokemon('Raichu', '026', {'Attack': 90, 'Defense': 55, 'HP': 60, 'Speed': 110})
 
 let create = document.querySelector('#create')
@@ -85,13 +86,15 @@ create.addEventListener('click', () => {
 return cardCreator(newPokemon)
 })
 
+
+//Button
 let createCard = document.createElement('div')
 createCard.className = "card"
 createCard.addEventListener('click', () => {
   
   console.log("thanks for clicking!")
 })
-// ES6 style construtor
+
 
 
 

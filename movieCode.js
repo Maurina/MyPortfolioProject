@@ -25,7 +25,7 @@ let moviePoster = document.querySelector('.poster')
     
 
 
-    const drama = movies.filter (movie => movie.genres.name === "Drama")
+    
 /*-------------------------------------- Movie Info -------------------------------------------------- */
     let movieText = document.querySelector('.info')
     
@@ -67,8 +67,59 @@ let moviePoster = document.querySelector('.poster')
 /*-------------------------------------- Filter into Genres ----------------------------------- */
 
 
-
-
-const drama = movies.filter (movie => movie.genres.name === "Drama")
-
+let dramaSortBlock = document.querySelector('.sort')
+const drama = movies.filter (movie => {
+    if (movie.genres !== undefined && movie.genres.length > 1) {
+        return movie.genres.find(genre => genre.name === "Drama")
+    }
+ 
+})
 console.log(drama)
+
+
+let comedySortBlock = document.querySelector('.sort')
+const comedy = movies.filter (movie => {
+    if (movie.genres !== undefined && movie.genres.length > 1) {
+        return movie.genres.find(genre => genre.name === "Comedy")
+    }
+ 
+})
+console.log(comedy)
+
+let familySortBlock = document.querySelector('.sort')
+const family = movies.filter (movie => {
+    if (movie.genres !== undefined && movie.genres.length > 1) {
+        return movie.genres.find(genre => genre.name === "Family")
+    }
+ 
+})
+console.log(family)
+
+let fantasySortBlock = document.querySelector('.sort')
+const fantasy = movies.filter (movie => {
+    if (movie.genres !== undefined && movie.genres.length > 1) {
+        return movie.genres.find(genre => genre.name === "Fantasy")
+    }
+ 
+})
+console.log(fantasy)
+    
+/*-------------------------------------- Loop for Genre Sort----------------------------------- */
+drama.forEach(dramas => {
+
+let dramaTitle = document.createElement('h2')
+dramaTitle.textContent = drama.original_title
+dramaSortBlock.appendChild(dramaTitle)
+console.log(dramaTitle)
+})
+
+/*-------------------------------- Buttons -------------------------------------------------*/
+
+
+
+let genreSort = document.createElement('div')
+genreSort.addEventListener('click', () => {
+  
+  console.log("thanks for clicking!")
+  return dramaSortBlock
+})
