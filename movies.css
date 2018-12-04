@@ -147,16 +147,14 @@ blockquote{
 }
 
 
-figcaption{
-  color: #fff;
-  font-size: 1.5rem;
-  padding: 2%;
-  background-color: green;
-  margin-bottom: 2rem;
-}
 img{
     width: 40%;
     padding-bottom: .5rem;
     padding-top: 1rem;
   
 }
+
+.sort {
+  background-color: green;
+}
+

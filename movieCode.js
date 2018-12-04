@@ -67,7 +67,7 @@ let moviePoster = document.querySelector('.poster')
 /*-------------------------------------- Filter into Genres ----------------------------------- */
 
 
-let dramaSortBlock = document.querySelector('.sort')
+
 const drama = movies.filter (movie => {
     if (movie.genres !== undefined && movie.genres.length > 1) {
         return movie.genres.find(genre => genre.name === "Drama")
@@ -77,7 +77,6 @@ const drama = movies.filter (movie => {
 console.log(drama)
 
 
-let comedySortBlock = document.querySelector('.sort')
 const comedy = movies.filter (movie => {
     if (movie.genres !== undefined && movie.genres.length > 1) {
         return movie.genres.find(genre => genre.name === "Comedy")
@@ -86,7 +85,7 @@ const comedy = movies.filter (movie => {
 })
 console.log(comedy)
 
-let familySortBlock = document.querySelector('.sort')
+
 const family = movies.filter (movie => {
     if (movie.genres !== undefined && movie.genres.length > 1) {
         return movie.genres.find(genre => genre.name === "Family")
@@ -95,7 +94,7 @@ const family = movies.filter (movie => {
 })
 console.log(family)
 
-let fantasySortBlock = document.querySelector('.sort')
+
 const fantasy = movies.filter (movie => {
     if (movie.genres !== undefined && movie.genres.length > 1) {
         return movie.genres.find(genre => genre.name === "Fantasy")
@@ -105,21 +104,27 @@ const fantasy = movies.filter (movie => {
 console.log(fantasy)
     
 /*-------------------------------------- Loop for Genre Sort----------------------------------- */
+let sortBlock = document.querySelector('.sort')
+
+let movieDrama = document.createElement('h2')
+movieDrama.textContent = "Drama"
+sortBlock.appendChild(movieDrama)
+
+let textMovie = document.createElement('p')
+textMovie.textContent = drama
+sortBlock.appendChild(textMovie)
+
+
 drama.forEach(dramas => {
 
-let dramaTitle = document.createElement('h2')
-dramaTitle.textContent = drama.original_title
-dramaSortBlock.appendChild(dramaTitle)
+let dramaTitle = document.createElement('h3')
+dramaTitle.textContent = `Run time : ${drama.runtime} minutes`
+sortBlock.appendChild(dramaTitle)
 console.log(dramaTitle)
 })
 
-/*-------------------------------- Buttons -------------------------------------------------*/
 
 
 
-let genreSort = document.createElement('div')
-genreSort.addEventListener('click', () => {
-  
-  console.log("thanks for clicking!")
-  return dramaSortBlock
-})
+
+A

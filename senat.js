@@ -1,5 +1,6 @@
 import { senatorData } from './assets/senators.js'
 
+/* ----------------------------- Sorting Data ------------------------------------------------------*/ 
 const senators = senatorData.results[0].members
 
 let republican = senators.filter(senator => senator.party === "R")
@@ -35,9 +36,9 @@ const senWithPics = senators.map(senator => {
     return senator
 })
 
-console.log(senWithPics)
 
 
+/* ------------------------------ Adding Images and Names to the DOM -------------------------------*/
 
 let pictureDiv = document.querySelector('.container')
 senWithPics.forEach(senator => {
@@ -52,32 +53,46 @@ senWithPics.forEach(senator => {
 })
 
 
+/* -------------------------------- Top block with data about Senators -----------------------*/
+    
+    /* --------------------- Republican stats ----------------------- */
+let numReb = document.querySelector('#numRep')
+let p = document.createElement('p')
+p.textContent = `There are ${republican.length} Republicans in the senate.`
+
 let loyalDiv = document.querySelector('#loyalRep')
 let paragraph = document.createElement('p')
 
 paragraph.textContent = `${loyalRepublican.first_name}  ${loyalRepublican.last_name} from ${loyalRepublican.state}`
-loyalDiv.appendChild(paragraph)
+
 
 
 let voteRepub = document.querySelector('#voteRep')
 let paragra = document.createElement('p')
 paragra.textContent = `${loyalRepublican.votes_with_party_pct}% of the time.`
+numReb.appendChild(p)
+loyalDiv.appendChild(paragraph)
 voteRepub.appendChild(paragra) 
 
 
-
-
+   /* --------------------- Democrate stats ----------------------- */
+   
+let numDemo = document.querySelector('#numDemo')
+let pa = document.createElement('p')  
+pa.textContent = `There are ${democrats.length} Democrats in the senate.`
 let loyalDemo = document.querySelector('#loyalDem')
 let para = document.createElement('p')
 para.textContent = `${loyalDemocat.first_name}  ${loyalDemocat.last_name} from ${loyalDemocat.state}`
 
 
 
-loyalDemo.appendChild(para)
-
-
 
 let voteDemo = document.querySelector('#voteDem')
 let par = document.createElement('p')
 par.textContent = `${loyalDemocat.votes_with_party_pct}% of the time.`
+numDemo.appendChild(pa)
+loyalDemo.appendChild(para)
 voteDemo.appendChild(par)
+
+    /* -------------------------- General stats --------------------- */
+

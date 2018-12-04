@@ -1,13 +1,13 @@
 import { pokemon } from './pokemon.js'
 
 
-console.log(pokemon)
 
-//card container
+
+/* -------------------------- card container --------------------------------------*/
 const pokeContainer = document.querySelector('#container')
 
 
-// create card function
+/* --------------------------- create card function -------------------------------- */
 const cardCreator = (poke) =>{
  let card = document.createElement('div')
  card.className = "card"
@@ -15,10 +15,10 @@ const cardCreator = (poke) =>{
      card.classList.toggle('is-flipped');
  })
  
- //card front
+ /* ---------------------------- card front ----------------------------------------- */
  let frontCard = document.createElement('figure')
  frontCard.className = "card__face card__face--front"
- console.log(`${poke.id}${poke.ename}.png`)
+
 
  let cap = document.createElement('figcaption')
  let img = document.createElement('img')
@@ -26,11 +26,11 @@ const cardCreator = (poke) =>{
  img.src = `images/${poke.id}${poke.ename}.png`
  cap.textContent = poke.ename
 
- //attaching items to the DOM
+ /* ------------------------------------ attaching items to the DOM -------------------------- */
  frontCard.appendChild(cap)
  frontCard.appendChild(img)
 
- //card back
+ /* ------------------------------- card back --------------------------------- */
 
  let cardBack = document.createElement('figure')
  cardBack.className = "card__face card__face--back"
@@ -50,7 +50,7 @@ speed.textContent = `Speed: ${poke.base.Speed}`
 hp.textContent = `Hit Points: ${poke.base.HP}`
 
 
-//attaching items to the DOM
+/*------------------------------ attaching items to the DOM ------------------------------- */
 cardBack.appendChild(imag)
  cardBack.appendChild(capt)
  cardBack.appendChild(attack)
@@ -62,12 +62,13 @@ card.appendChild(frontCard)
  pokeContainer.appendChild(card)
 }
 
+/*-------------------------- Using the cardCreator function --------------------------------- */
 pokemon.forEach(element => cardCreator(element))
 
 
 
 
-// Constructor Function
+/* ------------------------------ Constructor Function ------------------------------------ */
 
 
 class Pokemon {
@@ -78,7 +79,7 @@ class Pokemon {
       }
 }
 
-// ES6 style construtor
+/* -------------------------------- ES6 style construtor -------------------------------- */
 let newPokemon = new Pokemon('Raichu', '026', {'Attack': 90, 'Defense': 55, 'HP': 60, 'Speed': 110})
 
 let create = document.querySelector('#create')
@@ -87,89 +88,9 @@ return cardCreator(newPokemon)
 })
 
 
-//Button
+/* --------------------------------- Button ------------------------------------------- */
 let createCard = document.createElement('div')
 createCard.className = "card"
 createCard.addEventListener('click', () => {
   
-  console.log("thanks for clicking!")
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* const createCardLoop = () => {
-    let create = document.querySelector('#create')
-    create.addEventListener('click', () => {
-        
-        if ('click'){
-            let i = 26
-            for (pokeNew => {
-                i++
-                let newCardFront = document.createElement('figure')
-                newCardFront.className = "card__face card__face--back"
-                let capti = document.createElement('figcaption')
-                let image = document.createElement('img')
-                image.src =`images/${pokeNew.id}${pokeNew.ename}.png`
-                capti.textContent = pokeNew.ename
-                newCardFront.appendChild(capti)
-                newCardFront.appendChild(image)
-                
-                let newCardBack = document.createElement('figure')
-                newCardBack.className = "card__face card__face--back"
-                let caption = document.createElement('figcaption')
-                let images = document.createElement('img')
-                images.src = "images/PokemonLogo.png"
-                caption.textContent = pokeNew.ename
-                newCardBack.appendChild(caption)
-                newCardBack.appendChild(images)
-                newCard.appendChild(newCardFront)
-                newCard.appendChild(newCardBack)
-        
-         })
-    }
-    })
-  }
-    pokeAdd.forEach(pokeNew => {
-
-        let newCardFront = document.createElement('figure')
-        newCardFront.className = "card__face card__face--back"
-        let capti = document.createElement('figcaption')
-        let image = document.createElement('img')
-        image.src =`images/${pokeNew.id}${pokeNew.ename}.png`
-        capti.textContent = pokeNew.ename
-        newCardFront.appendChild(capti)
-        newCardFront.appendChild(image)
-        
-        let newCardBack = document.createElement('figure')
-        newCardBack.className = "card__face card__face--back"
-        let caption = document.createElement('figcaption')
-        let images = document.createElement('img')
-        images.src = "images/PokemonLogo.png"
-        caption.textContent = pokeNew.ename
-        newCardBack.appendChild(caption)
-        newCardBack.appendChild(images)
-        newCard.appendChild(newCardFront)
-        newCard.appendChild(newCardBack)
-
- })*/
-  
- 
