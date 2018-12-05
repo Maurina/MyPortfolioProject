@@ -122,6 +122,7 @@ body{
     background: #81d8d0;
   }
 
+
   .container1{
     text-align: center;
     background: #81d8d0;
@@ -139,7 +140,8 @@ body{
 
   p{
       font-size: 1.5rem;
-      padding: 4%;
+      padding: 8%;
+      width: 100%;
   }
   
   .container{
@@ -165,3 +167,17 @@ body{
     text-align: center;
     font-size: 1.5rem;
   }
+
+  .numbers {
+    background: #81d8d0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+  }
+  
+  .numbers p{
+    width: 100%;
+    padding-bottom: 0%;
+  }
+  

@@ -19,15 +19,7 @@ const nameOfSenators = senators.map (senator => senator.first_name +" "+ senator
 
 
 
-console.log(`There are ${republican.length} republicans in the senate.`)
-console.log(`There are ${democrats.length} democrates in the senate.`)
 
-console.log(`There are ${females.length} female senators`)
-console.log(`There are ${males.length} male senators`)
-console.log(`The most loyal republican is ${loyalRepublican.first_name} ${loyalRepublican.last_name} from ${loyalRepublican.state} who votes with republicans ${loyalRepublican.votes_with_party_pct}% of the time.`)
-console.log(`The most loyal republican is ${loyalDemocat.first_name} ${loyalDemocat.last_name} from ${loyalDemocat.state} who votes with republicans ${loyalDemocat.votes_with_party_pct}% of the time.`)
-console.log(`These are the Senators`)
-console.log(` ${nameOfSenators}`)
 
 const senWithPics = senators.map(senator => {
     senator.imgURL = `https://www.govtrack.us/data/photos/${senator.govtrack_id}-200px.jpeg`
@@ -95,4 +87,13 @@ loyalDemo.appendChild(para)
 voteDemo.appendChild(par)
 
     /* -------------------------- General stats --------------------- */
+let femaleSenator = document.querySelector('#female')
+let info = document.createElement('p')
+info.textContent = `There are ${females.length} female senators`
 
+let maleSenator = document.querySelector('#male')
+let infor = document.createElement('p')
+infor.textContent = `There are ${males.length} male senators`
+
+femaleSenator.appendChild(info)
+maleSenator.appendChild(infor)
