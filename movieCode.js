@@ -1,15 +1,4 @@
-
 import { movies } from './movieInformation.js'
-
-
-// Constructor Function
-
-function MovieInfo(original_title, overview, popularity) {
-    this.original_title = original_title
-    this.overview = overview
-    this.popularity = popularity
-  
-}
 
 
 
@@ -18,12 +7,7 @@ movies.forEach(movie => {
 /*---------------------- Poster Image and Tagline -------------------------------------------------- */
 let moviePoster = document.querySelector('.poster')
     let moviePic = document.createElement('img')
-   
     moviePic.src = `images/${movie.id}.jpg`
-
-    
-    
-
 
     
 /*-------------------------------------- Movie Info -------------------------------------------------- */
@@ -66,8 +50,6 @@ let moviePoster = document.querySelector('.poster')
 
 /*-------------------------------------- Filter into Genres ----------------------------------- */
 
-
-
 const drama = movies.filter (movie => {
     if (movie.genres !== undefined && movie.genres.length > 1) {
         return movie.genres.find(genre => genre.name === "Drama")
@@ -104,27 +86,47 @@ const fantasy = movies.filter (movie => {
 console.log(fantasy)
     
 /*-------------------------------------- Loop for Genre Sort----------------------------------- */
-let sortBlock = document.querySelector('.sort')
 
-let movieDrama = document.createElement('h2')
-movieDrama.textContent = "Drama"
-sortBlock.appendChild(movieDrama)
+    /* ------------------------------------ Drama ------------------------------------*/
 
-let textMovie = document.createElement('p')
-textMovie.textContent = drama
-sortBlock.appendChild(textMovie)
+let dramaBlock = document.querySelector('.drama') 
+let numDrama =  document.createElement('h4')
+numDrama.textContent = `There are ${drama.length} dramas`
 
+dramaBlock.appendChild(numDrama)
+
+        /* ------------------------------------ Drama Title ERROR ------------------------------------*/
 
 drama.forEach(dramas => {
+    let dramaTitle = document.createElement('h6')
+    dramaTitle.textContent =`Title: ${drama.original_title}`
+    
+    dramaBlock.appendChild(dramaTitle)
+    })
 
-let dramaTitle = document.createElement('h3')
-dramaTitle.textContent = `Run time : ${drama.runtime} minutes`
-sortBlock.appendChild(dramaTitle)
-console.log(dramaTitle)
-})
+        /* ------------------------------------ Comedy ------------------------------------*/
+let comedyBlock = document.querySelector('.comedy') 
+let numComedy =  document.createElement('h4')
+numComedy.textContent = `There are ${comedy.length} comedies`
+comedyBlock.appendChild(numComedy)
 
 
 
 
+        /* ------------------------------------ Fantasy ------------------------------------*/
+let fantasyBlock = document.querySelector('.fantasy') 
+let numFantasy =  document.createElement('h4')
+numFantasy.textContent = `There are ${fantasy.length} fantasies`
 
-A
+fantasyBlock.appendChild(numFantasy)
+
+
+
+        /* ------------------------------------ Family ------------------------------------*/
+let familyBlock = document.querySelector('.family') 
+let numFamily =  document.createElement('h4')
+numFamily.textContent = `There are ${family.length} family`
+
+familyBlock.appendChild(numFamily)
+
+

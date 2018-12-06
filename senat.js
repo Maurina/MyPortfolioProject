@@ -18,9 +18,7 @@ const loyalDemocat = democrats.reduce((acc, senator) => senator.votes_with_party
 const nameOfSenators = senators.map (senator => senator.first_name +" "+ senator.last_name)
 
 
-
-
-
+/* --------------------------- Missing Image Added ----------------------------------------- */
 const senWithPics = senators.map(senator => {
     senator.imgURL = `https://www.govtrack.us/data/photos/${senator.govtrack_id}-200px.jpeg`
     if(senator.govtrack_id ==='412743'){
@@ -46,6 +44,18 @@ senWithPics.forEach(senator => {
 
 
 /* -------------------------------- Top block with data about Senators -----------------------*/
+
+  /* -------------------------- General stats --------------------- */
+  let femaleSenator = document.querySelector('#female')
+  let info = document.createElement('p')
+  info.textContent = `There are ${females.length} female senators`
+  
+  let maleSenator = document.querySelector('#male')
+  let infor = document.createElement('p')
+  infor.textContent = `There are ${males.length} male senators`
+  
+  femaleSenator.appendChild(info)
+  maleSenator.appendChild(infor)
     
     /* --------------------- Republican stats ----------------------- */
 let numReb = document.querySelector('#numRep')
@@ -77,8 +87,6 @@ let para = document.createElement('p')
 para.textContent = `${loyalDemocat.first_name}  ${loyalDemocat.last_name} from ${loyalDemocat.state}`
 
 
-
-
 let voteDemo = document.querySelector('#voteDem')
 let par = document.createElement('p')
 par.textContent = `${loyalDemocat.votes_with_party_pct}% of the time.`
@@ -86,14 +94,4 @@ numDemo.appendChild(pa)
 loyalDemo.appendChild(para)
 voteDemo.appendChild(par)
 
-    /* -------------------------- General stats --------------------- */
-let femaleSenator = document.querySelector('#female')
-let info = document.createElement('p')
-info.textContent = `There are ${females.length} female senators`
-
-let maleSenator = document.querySelector('#male')
-let infor = document.createElement('p')
-infor.textContent = `There are ${males.length} male senators`
-
-femaleSenator.appendChild(info)
-maleSenator.appendChild(infor)
+  

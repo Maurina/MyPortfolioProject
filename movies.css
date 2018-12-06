@@ -136,6 +136,13 @@ h4 {
   
 }
 
+h6{
+  font-size: .8rem;
+  color: #fff;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
 blockquote{
   color: #fff;
   font-size: 1.5rem;
@@ -156,5 +163,11 @@ img{
 
 .sort {
   background-color: green;
+  display: flex;
+  padding-top: 2rem;
+  border-top: dotted 2px #fff;
+  justify-content: space-evenly;
 }
+
+
 
