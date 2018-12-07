@@ -99,9 +99,11 @@ dramaBlock.appendChild(numDrama)
 
 drama.forEach(dramas => {
     let dramaTitle = document.createElement('h6')
-    dramaTitle.textContent =`Title: ${drama.original_title}`
+    dramaTitle.textContent =`Title: ${drama.name}`
     
     dramaBlock.appendChild(dramaTitle)
+
+    console.log(drama.name)
     })
 
         /* ------------------------------------ Comedy ------------------------------------*/
