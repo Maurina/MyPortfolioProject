@@ -56,7 +56,7 @@ const drama = movies.filter (movie => {
     }
  
 })
-console.log(drama)
+
 
 
 const comedy = movies.filter (movie => {
@@ -65,7 +65,7 @@ const comedy = movies.filter (movie => {
     }
  
 })
-console.log(comedy)
+
 
 
 const family = movies.filter (movie => {
@@ -74,7 +74,7 @@ const family = movies.filter (movie => {
     }
  
 })
-console.log(family)
+
 
 
 const fantasy = movies.filter (movie => {
@@ -83,7 +83,7 @@ const fantasy = movies.filter (movie => {
     }
  
 })
-console.log(fantasy)
+
     
 /*-------------------------------------- Loop for Genre Sort----------------------------------- */
 
@@ -95,15 +95,13 @@ numDrama.textContent = `There are ${drama.length} dramas`
 
 dramaBlock.appendChild(numDrama)
 
-        /* ------------------------------------ Drama Title ERROR ------------------------------------*/
+        /* ------------------------------------ Drama Loop ------------------------------------*/
 
 drama.forEach(dramas => {
     let dramaTitle = document.createElement('h6')
-    dramaTitle.textContent =`Title: ${drama.name}`
+    dramaTitle.textContent =`${dramas.original_title}`
     
     dramaBlock.appendChild(dramaTitle)
-
-    console.log(drama.name)
     })
 
         /* ------------------------------------ Comedy ------------------------------------*/
@@ -113,6 +111,13 @@ numComedy.textContent = `There are ${comedy.length} comedies`
 comedyBlock.appendChild(numComedy)
 
 
+        /* ------------------------------------ Drama Loop ------------------------------------*/
+        comedy.forEach(comedys => {
+            let comedyTitle = document.createElement('h6')
+            comedyTitle.textContent =`${comedys.original_title}`
+            
+            comedyBlock.appendChild(comedyTitle)
+            })
 
 
         /* ------------------------------------ Fantasy ------------------------------------*/
@@ -122,6 +127,13 @@ numFantasy.textContent = `There are ${fantasy.length} fantasies`
 
 fantasyBlock.appendChild(numFantasy)
 
+        /* ------------------------------------ Drama Loop ------------------------------------*/
+        fantasy.forEach(fantasys => {
+            let fantasyTitle = document.createElement('h6')
+            fantasyTitle.textContent =`${fantasys.original_title}`
+    
+            fantasyBlock.appendChild(fantasyTitle)
+            })
 
 
         /* ------------------------------------ Family ------------------------------------*/
@@ -130,5 +142,13 @@ let numFamily =  document.createElement('h4')
 numFamily.textContent = `There are ${family.length} family`
 
 familyBlock.appendChild(numFamily)
+
+            /* ------------------------------------ Drama Loop ------------------------------------*/
+        family.forEach(familys => {
+            let familyTitle = document.createElement('h6')
+            familyTitle.textContent =`${familys.original_title}`
+            
+            familyBlock.appendChild(familyTitle)
+            })
 
 
