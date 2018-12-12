@@ -90,7 +90,7 @@ const fantasy = movies.filter (movie => {
     /* ------------------------------------ Drama ------------------------------------*/
 
 let dramaBlock = document.querySelector('.drama') 
-let numDrama =  document.createElement('h4')
+let numDrama =  document.createElement('h3')
 numDrama.textContent = `There are ${drama.length} dramas`
 
 dramaBlock.appendChild(numDrama)
@@ -98,7 +98,7 @@ dramaBlock.appendChild(numDrama)
         /* ------------------------------------ Drama Loop ------------------------------------*/
 
 drama.forEach(dramas => {
-    let dramaTitle = document.createElement('h6')
+    let dramaTitle = document.createElement('h4')
     dramaTitle.textContent =`${dramas.original_title}`
     
     dramaBlock.appendChild(dramaTitle)
@@ -106,14 +106,14 @@ drama.forEach(dramas => {
 
         /* ------------------------------------ Comedy ------------------------------------*/
 let comedyBlock = document.querySelector('.comedy') 
-let numComedy =  document.createElement('h4')
+let numComedy =  document.createElement('h3')
 numComedy.textContent = `There are ${comedy.length} comedies`
 comedyBlock.appendChild(numComedy)
 
 
         /* ------------------------------------ Drama Loop ------------------------------------*/
         comedy.forEach(comedys => {
-            let comedyTitle = document.createElement('h6')
+            let comedyTitle = document.createElement('h4')
             comedyTitle.textContent =`${comedys.original_title}`
             
             comedyBlock.appendChild(comedyTitle)
@@ -122,14 +122,14 @@ comedyBlock.appendChild(numComedy)
 
         /* ------------------------------------ Fantasy ------------------------------------*/
 let fantasyBlock = document.querySelector('.fantasy') 
-let numFantasy =  document.createElement('h4')
+let numFantasy =  document.createElement('h3')
 numFantasy.textContent = `There are ${fantasy.length} fantasies`
 
 fantasyBlock.appendChild(numFantasy)
 
         /* ------------------------------------ Drama Loop ------------------------------------*/
         fantasy.forEach(fantasys => {
-            let fantasyTitle = document.createElement('h6')
+            let fantasyTitle = document.createElement('h4')
             fantasyTitle.textContent =`${fantasys.original_title}`
     
             fantasyBlock.appendChild(fantasyTitle)
@@ -138,14 +138,14 @@ fantasyBlock.appendChild(numFantasy)
 
         /* ------------------------------------ Family ------------------------------------*/
 let familyBlock = document.querySelector('.family') 
-let numFamily =  document.createElement('h4')
+let numFamily =  document.createElement('h3')
 numFamily.textContent = `There are ${family.length} family`
 
 familyBlock.appendChild(numFamily)
 
             /* ------------------------------------ Drama Loop ------------------------------------*/
         family.forEach(familys => {
-            let familyTitle = document.createElement('h6')
+            let familyTitle = document.createElement('h4')
             familyTitle.textContent =`${familys.original_title}`
             
             familyBlock.appendChild(familyTitle)

@@ -166,9 +166,8 @@ img{
   height: 40px;
   background-color: #000;
   border-top: dotted 2px #fff;
-  display: flex;
-  justify-content: center;
-  animation: myanimation 10s infinite;
+ 
+  animation: thirdAnimation 10s infinite;
 }
 
 
@@ -176,23 +175,28 @@ img{
 .sort {
   background: #000;
   display: flex;
-  padding-top: 3rem;
+  
   border-top: dotted 2px #fff;
   justify-content: space-evenly;
   
 }
 
-.drama .fantasy{
-  animation: myanimation 10s infinite;
+.drama, .fantasy {
   padding: 4%;
+  width: 25%;
+  animation: firstAnimation 10s infinite;
+
 }
 
-.comedy .family{
+.comedy, .family {
+  width: 25%;
   padding: 4%;
   animation: secondAnimation 10s infinite;
 }
 
-@keyframes myanimation {
+
+
+@keyframes firstAnimation {
   0% {background-color:#165B33;}
   25%{background-color:146B3A}
   50%{background-color: #000;}
@@ -205,3 +209,10 @@ img{
   25%{background-color:red;}
   100% {background-color: #000;}
 }
+
+@keyframes thirdAnimation {
+  0% {background-color: gold;}
+  25%{background-color:#000;}
+  100% {background-color: goldenrod;}
+}
+
