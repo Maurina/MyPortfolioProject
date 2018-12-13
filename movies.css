@@ -212,7 +212,7 @@ img{
 
 @keyframes thirdAnimation {
   0% {background-color: gold;}
-  25%{background-color:#000;}
-  100% {background-color: goldenrod;}
+  25%{background-color:silver;}
+  100% {background-color: gold;}
 }
 
